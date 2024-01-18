@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255);
+  background-color: #03001C;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  font-family: 'Kanit', Arial, Helvetica, sans-serif;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+*,
+html {
+  scroll-behavior: smooth !important;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    position: relative;
+    right: 20px;
+  }
+
+  /* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+
+  /* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Cambiamos el fondo cuando esté en active */
+  &::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+}
+
+body {
+  margin: auto;
+  margin-top: 90px;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  max-width: 95%;
+  min-height: 100vh;
+}
+
+.H1 {
+  text-align: start;
+  font-size: 3.2em;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+a {
+  font-weight: bolder;
+  color: inherit;
+  text-decoration: inherit;
+  transition: all .3s;
+
+  &:hover {
+    text-shadow: 1px 1px 30px #301E67, 1px 1px 30px white;
+  }
+}
+
+
+
+.H2 {
+  text-align: start;
+  margin-top: 0;
+}
+
+.P {
+  text-align: start;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin-left: 30px;
+}
+
+li {
+  margin-bottom: 5px;
+  list-style: none;
+  transition: all .3s;
+}

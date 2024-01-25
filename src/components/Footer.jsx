@@ -10,7 +10,7 @@ export default function Footer ({ lang }) {
       <p>
         {content[lang].footer[1]}
         <a
-          href=''
+          href='https://github.com/bdiaz-dev/portfolio'
         >
           {content[lang].footer[2]}
         </a>

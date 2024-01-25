@@ -4,14 +4,16 @@ export default function MdBotomLinks ({ item, txt }) {
       className='botomLinks'
     >
       <li>
-        <a href={item.urls.github} target='blank'>
-          {txt.repo}
-        </a>
+        {item.urls.github &&
+          <a href={item.urls.github} target='blank'>
+            {txt.repo}
+          </a>}
       </li>
       <li>
-        <a href={item.urls.site} target='blank'>
-          {txt.go}
-        </a>
+        {item.urls.site &&
+          <a href={item.urls.site} target='blank'>
+            {txt.go}
+          </a>}
       </li>
     </ul>
   )

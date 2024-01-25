@@ -116,8 +116,8 @@ export const es = {
           'Hay muchas partes de este proyecto que fueron duras de programar; pero en especial, una de las que mas orgulloso estoy, es del menu principal. Este menu lo desarrolle por completo de cero sin utilizar las herramientas preestablecidas del motor, pues queria algo muy concreto con unos comportamientos determinados. Por lo que cada funcionalidad, comportamiento de botones, paginas o selección de modos de juego y/o aspectos fueron programados directamente con lógica. Lo cual me aportó muchisima habilidad en este campo.'
         ],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://play.google.com/store/apps/details?id=studio.onagames.blocksurvivor',
+          github: null
         },
         img: captures.blockSurvivor,
         tech: [
@@ -129,8 +129,8 @@ export const es = {
         text: 'Miniapp para jugar IRL a juegos de adivinar palabras, para Android y hecha con Godot.',
         description: [''],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://play.google.com/store/apps/details?id=studio.onagames.amigospalabras',
+          github: null
         },
         img: captures.amigosPalabras,
         tech: [
@@ -274,8 +274,8 @@ export const en = {
           'Hay muchas partes de este proyecto que fueron duras de programar; pero en especial, una de las que mas orgulloso estoy, es del menu principal. Este menu lo desarrolle por completo de cero sin utilizar las herramientas preestablecidas del motor, pues queria algo muy concreto con unos comportamientos determinados. Por lo que cada funcionalidad, comportamiento de botones, paginas o selección de modos de juego y/o aspectos fueron programas directamente con lógica. Lo cual me aportó muchisima habilidad en este campo.'
         ],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://play.google.com/store/apps/details?id=studio.onagames.blocksurvivor',
+          github: null
         },
         img: captures.blockSurvivor,
         tech: [
@@ -287,8 +287,8 @@ export const en = {
         text: 'Mini-app for real-life word guessing games, designed for Android and developed with Godot.',
         description: [''],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://play.google.com/store/apps/details?id=studio.onagames.amigospalabras',
+          github: null
         },
         img: captures.amigosPalabras,
         tech: [

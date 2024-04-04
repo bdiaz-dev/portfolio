@@ -267,11 +267,11 @@ export const en = {
         title: 'Block Survivor',
         text: 'An arcade-style 80s game for Android created using Godot.',
         description: [
-          'Este es mi mas ambicioso proyecto, en lo que respecta al desarrollo de videojuegos indie, hasta la fecha.',
-          'Se trata de un juego tipo Arcade con estetica inspirada en los 80, en el cual el jugador ha de superar una serie de niveles llenos de obstaculos usando solo su habilidad moviendo la nave de un lado a otro para pasar a través de unos bloques que dificultan el viaje.',
-          'Me ha ofrecido un proceso de desarrollo laborioso, inspirador y emocionante a la par que desafiante. Y fué la razón por la que decidí entrar en la progrmación de forma profesional, debido a que me apasionó codificar el comportamiento de todo',
-          'Tiene todo tipo de funcionalidades como: gestión de datos de jugador guardados en la nube, misiones que se van actualizando en tiempo real durante la partida, una tienda de Aspectos para la nave, modos de juego extra que aprovechan los niveles originales cambiando las reglas, etc... . Les invito a probar una partida, es muy adictivo...',
-          'Hay muchas partes de este proyecto que fueron duras de programar; pero en especial, una de las que mas orgulloso estoy, es del menu principal. Este menu lo desarrolle por completo de cero sin utilizar las herramientas preestablecidas del motor, pues queria algo muy concreto con unos comportamientos determinados. Por lo que cada funcionalidad, comportamiento de botones, paginas o selección de modos de juego y/o aspectos fueron programas directamente con lógica. Lo cual me aportó muchisima habilidad en este campo.'
+          'This is my most ambitious project, in terms of indie game development, to date.',
+          'It is an Arcade-style game with aesthetics inspired by the 80s, in which the player must overcome a series of levels full of obstacles using only their skill to move the ship from side to side to pass through blocks that hinder the journey.',
+          'It has offered me a laborious, inspiring, and exciting development process, as well as challenging. And it was the reason I decided to enter programming professionally, because I was passionate about coding the behavior of everything.',
+          'It has all kinds of features such as: management of player data saved in the cloud, missions that are updated in real-time during the game, a shop for ship skins, extra game modes that leverage the original levels by changing the rules, etc... . I invite you to try a game, it\'s very addictive...',
+          'There are many parts of this project that were difficult to program; but especially, one of which I am most proud is the main menu. I developed this menu completely from scratch without using the preset tools of the engine, as I wanted something very specific with certain behaviors. So every functionality, button behavior, pages or selection of game modes and/or skins were programmed directly with logic. Which gave me a lot of skill in this field.'
         ],
         urls: {
           site: 'https://play.google.com/store/apps/details?id=studio.onagames.blocksurvivor',

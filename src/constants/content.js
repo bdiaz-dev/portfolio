@@ -71,8 +71,8 @@ export const es = {
           'Es un ejemplo simple en el que no dediqué mas tiempo cuando fue funcional aquello que pretendía, pues quería continuar con mi entrenamiento en proyectos mas interesantes.'
         ],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://react-shop-brunodiaz.netlify.app/',
+          github: 'https://github.com/bdiaz-dev/react-shop'
         },
         img: captures.reactShop,
         tech: [
@@ -94,8 +94,8 @@ export const es = {
           'Y para la lectura de la información podremos cambiar entre los formatos Farengheith o Celsius, y la web elegira entre ingles o español en función del idioma predeterminado del navegador.'
         ],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://weathernow-by-brunodiaz.netlify.app/',
+          github: 'https://github.com/bdiaz-dev/weatherApp-javaScript-vanilla'
         },
         img: captures.weatherNow,
         tech: [
@@ -205,8 +205,8 @@ export const en = {
           'The initial collection can be filtered by genre, and an option allows you to show or hide items added to the reading list. This project is fully scalable, allowing the addition of more books to the collection or more search filters without affecting its behavior.',
           'Great attention has been given to detail, offering smooth animations and pop-up alerts to enhance the user experience, making it enjoyable and intuitive to use.'],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://lista-lectura-brunodiaz.netlify.app/',
+          github: 'https://github.com/bdiaz-dev/lista-lectura'
         },
         img: captures.listaLectura,
         tech: [
@@ -229,8 +229,8 @@ export const en = {
           'It\'s a simple example in which I didn\'t spend more time when what I intended was functional, because I wanted to continue my training on more interesting projects.'
         ],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://react-shop-brunodiaz.netlify.app/',
+          github: 'https://github.com/bdiaz-dev/react-shop'
         },
         img: captures.reactShop,
         tech: [
@@ -252,8 +252,8 @@ export const en = {
           'And to read the information we can change between Farengheith or Celsius formats, and the website will choose between English or Spanish depending on the default language of the browser.'
         ],
         urls: {
-          site: 'https://onagames.netlify.app/',
-          github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
+          site: 'https://weathernow-by-brunodiaz.netlify.app/',
+          github: 'https://github.com/bdiaz-dev/weatherApp-javaScript-vanilla'
         },
         img: captures.weatherNow,
         tech: [

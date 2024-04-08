@@ -9,7 +9,7 @@ export default function Contact ({ id = 'contact', isOnTop = false }) {
       <a href='https://www.linkedin.com/in/bruno-diaz-a2aa15297/'>
         <img src={contact.linkedin} />
       </a>
-      <a href='mailto:brunodiaz.dev@gmail.com'>
+      <a href='mailto:contact@brunodiaz.es'>
         <img src={contact.mail} />
       </a>
       {isOnTop || <div id='contactViewer' />}

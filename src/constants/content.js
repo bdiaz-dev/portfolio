@@ -22,7 +22,7 @@ export const es = {
           'También hay integrado en la pagina de contacto un formulario para este fin.'
         ],
         urls: {
-          site: 'https://onagames.netlify.app/',
+          site: 'http://onagames.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
         },
         img: captures.onaGames,
@@ -47,7 +47,7 @@ export const es = {
           'Este proyecto es escalable en su totalidad, pudiendo agregar mas libros a la colección o mas filtros de busqueda sin afectar a su comportamiento. Y se ha cuidado el detalle de ofrecer animaciones suaves y alertas emergentes que mejoren la experiencia de usuario, haciendo que usarla sea agradable e intuitivo.'
         ],
         urls: {
-          site: 'https://lista-lectura-brunodiaz.netlify.app/',
+          site: 'http://editorialdinav.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/lista-lectura'
         },
         img: captures.listaLectura,
@@ -71,7 +71,7 @@ export const es = {
           'Es un ejemplo simple en el que no dediqué mas tiempo cuando fue funcional aquello que pretendía, pues quería continuar con mi entrenamiento en proyectos mas interesantes.'
         ],
         urls: {
-          site: 'https://react-shop-brunodiaz.netlify.app/',
+          site: 'http://practice.reactshop.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/react-shop'
         },
         img: captures.reactShop,
@@ -94,7 +94,7 @@ export const es = {
           'Y para la lectura de la información podremos cambiar entre los formatos Farengheith o Celsius, y la web elegira entre ingles o español en función del idioma predeterminado del navegador.'
         ],
         urls: {
-          site: 'https://weathernow-by-brunodiaz.netlify.app/',
+          site: 'https://weathernow.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/weatherApp-javaScript-vanilla'
         },
         img: captures.weatherNow,
@@ -183,7 +183,7 @@ export const en = {
           'Additionally, a contact form is integrated into the contact page for this purpose.'
         ],
         urls: {
-          site: 'https://onagames.netlify.app/',
+          site: 'https://onagames.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/OnaGamesStudioWeb'
         },
         img: captures.onaGames,
@@ -205,7 +205,7 @@ export const en = {
           'The initial collection can be filtered by genre, and an option allows you to show or hide items added to the reading list. This project is fully scalable, allowing the addition of more books to the collection or more search filters without affecting its behavior.',
           'Great attention has been given to detail, offering smooth animations and pop-up alerts to enhance the user experience, making it enjoyable and intuitive to use.'],
         urls: {
-          site: 'https://lista-lectura-brunodiaz.netlify.app/',
+          site: 'http://editorialdinav.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/lista-lectura'
         },
         img: captures.listaLectura,
@@ -229,7 +229,7 @@ export const en = {
           'It\'s a simple example in which I didn\'t spend more time when what I intended was functional, because I wanted to continue my training on more interesting projects.'
         ],
         urls: {
-          site: 'https://react-shop-brunodiaz.netlify.app/',
+          site: 'http://practice.reactshop.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/react-shop'
         },
         img: captures.reactShop,
@@ -252,7 +252,7 @@ export const en = {
           'And to read the information we can change between Farengheith or Celsius formats, and the website will choose between English or Spanish depending on the default language of the browser.'
         ],
         urls: {
-          site: 'https://weathernow-by-brunodiaz.netlify.app/',
+          site: 'https://weathernow.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/weatherApp-javaScript-vanilla'
         },
         img: captures.weatherNow,

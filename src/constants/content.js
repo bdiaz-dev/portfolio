@@ -1,5 +1,12 @@
 import { captures, technologies } from './imgs.js'
 
+export const contactLinks = {
+  mail: 'mailto:contact@brunodiaz.es',
+  web: 'http://brunodiaz.es',
+  github: 'https://github.com/bdiaz-dev/',
+  linkedin: 'http://linkedin.brunodiaz.es'
+}
+
 export const es = {
   header: {
     titles: 'Desarrollador Frontend & Videojuegos Indie'

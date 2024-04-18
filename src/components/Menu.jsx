@@ -13,7 +13,13 @@ export default function Menu ({ lang }) {
 
       {/* Nombre en top -> Solo movil */}
       <div id='topNameContainer'>
-        <strong id='nameTop'>Bruno Diaz</strong>
+        <strong
+          style={{ cursor: 'pointer' }}
+          onClick={() => { window.location.href = 'mailto:contact@brunodiaz.es' }}
+          id='nameTop'
+        >
+          BrunoDiaz.es
+        </strong>
         <Contact id='contactTop' isOnTop />
       </div>
 

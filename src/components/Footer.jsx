@@ -1,7 +1,6 @@
 import * as content from '../constants/content'
 
 export default function Footer ({ lang }) {
-  // const lang = 'spanish'
   return (
     <div className='footer'>
       <p>
@@ -18,7 +17,7 @@ export default function Footer ({ lang }) {
       <p>
         {content[lang].footer[3]}
         <a
-          href='mailto:brunodiaz.dev@gmail.com'
+          href={content.contactLinks.mail}
         >
           {content[lang].footer[4]}
         </a>

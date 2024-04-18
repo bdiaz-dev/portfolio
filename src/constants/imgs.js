@@ -1,3 +1,5 @@
+import foto from '../assets/img/bruno_photo.jpg'
+
 import onaGames from '../assets/img/projects/onagames_capture.jpg'
 import blockSurvivor from '../assets/img/projects/blocksurvivor_capture.jpg'
 import listaLectura from '../assets/img/projects/listalectura_capture.jpg'
@@ -93,6 +95,7 @@ const technologies = {
 }
 
 export {
+  foto,
   captures,
   technologies,
   contact,

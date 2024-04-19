@@ -20,6 +20,7 @@ import zustand from '../assets/svg/zustand.svg'
 import mail from '../assets/svg/mail.svg'
 import linkedin from '../assets/svg/linkedin.svg'
 import gitHub from '../assets/svg/github.svg'
+import cvIco from '../assets/svg/cv.svg'
 
 import go from '../assets/svg/link.svg'
 import close from '../assets/svg/close.svg'
@@ -40,7 +41,8 @@ const captures = {
 const contact = {
   mail,
   linkedin,
-  gitHub
+  gitHub,
+  cvIco
 }
 
 const modalIcos = {

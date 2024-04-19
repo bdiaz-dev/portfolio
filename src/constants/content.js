@@ -1,10 +1,15 @@
 import { captures, technologies } from './imgs.js'
+import cvEn from '../assets/cv/cv_en.pdf'
+import cvEs from '../assets/cv/cv_es.pdf'
 
 export const contactLinks = {
   mail: 'mailto:contact@brunodiaz.es',
   web: 'http://brunodiaz.es',
   github: 'https://github.com/bdiaz-dev/',
-  linkedin: 'http://linkedin.brunodiaz.es'
+  linkedin: 'http://linkedin.brunodiaz.es',
+  cvDownload: [
+    cvEs, cvEn
+  ]
 }
 
 export const es = {
@@ -134,7 +139,7 @@ export const es = {
       {
         title: 'Amigos de Palabras',
         text: 'Miniapp para jugar IRL a juegos de adivinar palabras, para Android y hecha con Godot.',
-        description: [''],
+        description: ['Miniapp para jugar IRL a juegos de adivinar palabras, para Android y hecha con Godot.'],
         urls: {
           site: 'https://play.google.com/store/apps/details?id=studio.onagames.amigospalabras',
           github: null
@@ -292,7 +297,7 @@ export const en = {
       {
         title: 'Amigos de Palabras',
         text: 'Mini-app for real-life word guessing games, designed for Android and developed with Godot.',
-        description: [''],
+        description: ['Mini-app for real-life word guessing games, designed for Android and developed with Godot.'],
         urls: {
           site: 'https://play.google.com/store/apps/details?id=studio.onagames.amigospalabras',
           github: null

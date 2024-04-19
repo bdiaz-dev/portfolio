@@ -18,7 +18,7 @@ export default function Header ({ lang }) {
       <div id='nameContainer' className='nameContainer'>
         <h1 id='name' className='H1'>BrunoDiaz.es <div id='nameViewer' /></h1>
         <h2 className='H2 textColored'>{content[lang].header.titles}</h2>
-        <Contact />
+        <Contact lang={lang} />
         <hr />
         <Menu lang={lang} />
       </div>

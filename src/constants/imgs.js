@@ -6,6 +6,7 @@ import listaLectura from '../assets/img/projects/listalectura_capture.jpg'
 import reactShop from '../assets/img/projects/reactshop_capture.jpg'
 import weatherNow from '../assets/img/projects/weathernow_capture.jpg'
 import amigosPalabras from '../assets/img/projects/amigospalabras_capture.jpg'
+import reactdee from '../assets/img/projects/reactdee_capture.jpg'
 
 import javaScript from '../assets/svg/javascript.svg'
 import godot from '../assets/svg/godot.svg'
@@ -16,6 +17,9 @@ import react from '../assets/svg/react.svg'
 import html from '../assets/svg/html.svg'
 import css from '../assets/svg/css.svg'
 import zustand from '../assets/svg/zustand.svg'
+import nextjs from '../assets/svg/nextjs.svg'
+import npm from '../assets/svg/npm.svg'
+import playconsole from '../assets/svg/playconsole.svg'
 
 import mail from '../assets/svg/mail.svg'
 import linkedin from '../assets/svg/linkedin.svg'
@@ -35,7 +39,8 @@ const captures = {
   listaLectura,
   reactShop,
   weatherNow,
-  amigosPalabras
+  amigosPalabras,
+  reactdee
 }
 
 const contact = {
@@ -90,9 +95,21 @@ const technologies = {
     img: zustand,
     title: 'Zustand'
   },
+  nextjs: {
+    img: nextjs,
+    title: 'Next.js'
+  },
+  npm: {
+    img: npm,
+    title: 'npm'
+  },
   godot: {
     img: godot,
     title: 'Godot'
+  },
+  playconsole: {
+    img: playconsole,
+    title: 'Google Play Console'
   }
 }
 

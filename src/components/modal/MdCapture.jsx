@@ -15,6 +15,7 @@ export default function MdCapture ({ item, go }) {
         className='imgIconGo'
         onClick={() => { window.open(`${item.urls.site}`, '_blank') }}
         src={go}
+        alt='go to site'
       />
     </div>
   )

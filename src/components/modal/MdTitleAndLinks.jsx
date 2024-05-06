@@ -3,11 +3,11 @@ export default function MdTitleAndLinks ({ item, modalIcos }) {
     <h2 className='projectModal--title'>
       {item.title}
       <a href={item.urls.site} target='blank'>
-        <img src={modalIcos.go} alt='' />
+        <img src={modalIcos.go} alt='go to site' />
       </a>
       {item.urls.github &&
         <a href={item.urls.github} target='blank'>
-          <img src={modalIcos.gitHub} alt='' />
+          <img src={modalIcos.gitHub} alt='github' />
         </a>}
 
     </h2>

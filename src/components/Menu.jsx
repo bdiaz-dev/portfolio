@@ -39,13 +39,13 @@ export default function Menu ({ lang }) {
       {/* Menu movil */}
       <ul id='menuMini'>
         <li>
-          <a href='#top'><img src={menu.info} /></a>
+          <a href='#top'><img src={menu.info} alt='info' /></a>
         </li>
         <li>
-          <a href='#projectsResponsiveTag'><img src={menu.projects} /></a>
+          <a href='#projectsResponsiveTag'><img src={menu.projects} alt='projects' /></a>
         </li>
         <li>
-          <a href='#skills'><img src={menu.skills} /></a>
+          <a href='#skills'><img src={menu.skills} alt='skills' /></a>
         </li>
       </ul>
 

@@ -9,7 +9,10 @@ import MdCloseButton from './modal/MdCloseButton'
 
 export default function ModalProject ({ item, repo, go }) {
   return (
-    <aside className='modalContainer'>
+    <aside
+      className='modalContainer'
+      style={{ zIndex: '2000' }}
+    >
       <article className='projectModal'>
 
         {/* boton de cierre */}

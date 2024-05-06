@@ -24,6 +24,31 @@ export const es = {
     title: 'Proyectos',
     jobs: [
       {
+        title: 'ReactDee',
+        text: 'Componentes para aplicaciones React. Simples, faciles y listos para usar.',
+        description: [
+          'Para este proyecto quería crear una herramienta que facilitara un poco la creación de aplicaciones web con React. Por lo que decidí crear un catalogo de componentes, pero con una particularidad.',
+          'ReactDee se basa en la simplicidad a la hora de implementar y configurar estos componentes. A parte de poder copiar el codigo desde el repositorio, se ofrece la posibilidad de instalarlo mediante paquetes de "NPM". Con un solo comando de terminal, simple y sencillo de recordar, se puede conseguir un componente que estara listo para importar en el correspondiente proyecto.',
+          'Con respecto a la configuracion personalizada, se realiza de forma facil mediante el uso de props. Y sin necesidad de usar CSS para los estilos.',
+          'Consiguiendo con muy pocas lineas de codigo, sin necesidad de instalaciones ni configuraciones adicionales en otros archivos, componentes funcionales y agradables para el usuario final',
+          'En estos momentos se puede contar con cuatro componentes con los que ya se puede construir una sencilla web, pero hay planes de ir ampliando y actualizando la herramienta.',
+          'En este caso, ademas de los componentes, también trabajé en la construccion del sitio web que alojaría la documentación y presentación de este proyecto. Creado con NextJS, para aprovechar cosas como su enrutamiento o la optimización con su renderizado en servidor.'
+        ],
+        urls: {
+          site: 'https://reactdee.brunodiaz.es',
+          github: 'https://github.com/bdiaz-dev/reactdee'
+        },
+        img: captures.reactdee,
+        tech: [
+          technologies.html,
+          technologies.css,
+          technologies.javaScript,
+          technologies.react,
+          technologies.nextjs,
+          technologies.npm
+        ]
+      },
+      {
         title: 'Ona Games',
         text: 'La pagina web de mi desarrolladora Indie de Videojuegos.',
         description: [
@@ -133,7 +158,8 @@ export const es = {
         },
         img: captures.blockSurvivor,
         tech: [
-          technologies.godot
+          technologies.godot,
+          technologies.playconsole
         ]
       },
       {
@@ -146,7 +172,8 @@ export const es = {
         },
         img: captures.amigosPalabras,
         tech: [
-          technologies.godot
+          technologies.godot,
+          technologies.playconsole
         ]
       }
     ]
@@ -184,6 +211,31 @@ export const en = {
   projects: {
     title: 'Projects',
     jobs: [
+      {
+        title: 'ReactDee',
+        text: 'Simply, easy, and ready for use React Components for your apps.',
+        description: [
+          'For this project I wanted to create a tool that would make creating web applications with React a little easier. So I decided to create a catalog of components, but with a twist.',
+          'ReactDee is all about simplicity when it comes to implementing and configuring these components. Apart from being able to copy the code from the repository, the possibility of installing it using "NPM" packages is offered. With a single terminal command, simple and easy to remember, you can get a component that will be ready to import into the corresponding project.',
+          'Regarding custom configuration, it is easily done by using props. And without having to use CSS for styles.',
+          'Achieving, with very few lines of code, without the need for additional installations or configurations in other files, functional and pleasant components for the end user.',
+          'Currently there are four components with which you can build a simple website, but there are plans to expand and update the tool.',
+          'In this case, in addition to the components, I also worked on the construction of the website that would host the documentation and presentation of this project. Created with NextJS, to take advantage of things like your routing or optimization with your server rendering.'
+        ],
+        urls: {
+          site: 'https://reactdee.brunodiaz.es',
+          github: 'https://github.com/bdiaz-dev/reactdee'
+        },
+        img: captures.reactdee,
+        tech: [
+          technologies.html,
+          technologies.css,
+          technologies.javaScript,
+          technologies.react,
+          technologies.nextjs,
+          technologies.npm
+        ]
+      },
       {
         title: 'Ona Games',
         text: 'The website of my Indie Game Development studio.',
@@ -291,7 +343,8 @@ export const en = {
         },
         img: captures.blockSurvivor,
         tech: [
-          technologies.godot
+          technologies.godot,
+          technologies.playconsole
         ]
       },
       {
@@ -304,7 +357,8 @@ export const en = {
         },
         img: captures.amigosPalabras,
         tech: [
-          technologies.godot
+          technologies.godot,
+          technologies.playconsole
         ]
       }
     ]

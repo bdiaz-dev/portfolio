@@ -218,7 +218,7 @@ export const es = {
     title: 'Habilidades'
   },
   footer: [
-    'Este portfolio ha sido desarrollado con React y compilado con Vite.',
+    'Este portfolio ha sido desarrollado con React bajo el entorno de Vite.',
     'Puede acceder a su repositorio haciendo click ',
     ' aquí.',
     'Si tiene un proyecto en mente no dude en ', 'contactarme.'
@@ -440,7 +440,7 @@ export const en = {
   },
   footer: [
 
-    'This portfolio has been developed with React and compiled with Vite.',
+    'This portfolio has been developed with React on Vite.',
     'You can access its repository by clicking ',
     'here.',
     'If you have a project in mind, feel free to ', 'contact me.'

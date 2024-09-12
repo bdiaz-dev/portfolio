@@ -1,6 +1,5 @@
 export default function handleOpenModal (i, setJob) {
   setJob(i)
-  console.log(i)
   const bgModal = document.querySelector('.modalContainer')
   const modalPage = document.querySelector('.projectModal')
   bgModal.style.display = 'flex'

@@ -7,6 +7,7 @@ import reactShop from '../assets/img/projects/reactshop_capture.jpg'
 import weatherNow from '../assets/img/projects/weathernow_capture.jpg'
 import amigosPalabras from '../assets/img/projects/amigospalabras_capture.jpg'
 import reactdee from '../assets/img/projects/reactdee_capture.jpg'
+import weatherApp2 from '../assets/img/projects/weatherapp2_capture.jpeg'
 
 import javaScript from '../assets/svg/javascript.svg'
 import godot from '../assets/svg/godot.svg'
@@ -20,6 +21,11 @@ import zustand from '../assets/svg/zustand.svg'
 import nextjs from '../assets/svg/nextjs.svg'
 import npm from '../assets/svg/npm.svg'
 import playconsole from '../assets/svg/playconsole.svg'
+import typescript from '../assets/svg/ts.svg'
+import sass from '../assets/svg/sass.svg'
+import vitest from '../assets/svg/vitest.svg'
+import testingLibrary from '../assets/svg/testingLibrary.svg'
+import framerMotion from '../assets/svg/framerMotion.svg'
 
 import mail from '../assets/svg/mail.svg'
 import linkedin from '../assets/svg/linkedin.svg'
@@ -40,7 +46,8 @@ const captures = {
   reactShop,
   weatherNow,
   amigosPalabras,
-  reactdee
+  reactdee,
+  weatherApp2
 }
 
 const contact = {
@@ -67,6 +74,10 @@ const technologies = {
     img: javaScript,
     title: 'JavaScript'
   },
+  typescript: {
+    img: typescript,
+    title: 'TypeScript'
+  },
   html: {
     img: html,
     title: 'Html'
@@ -87,6 +98,10 @@ const technologies = {
     img: vite,
     title: 'Vite'
   },
+  vitest: {
+    img: vitest,
+    title: 'Vitest'
+  },
   git: {
     img: git,
     title: 'Git'
@@ -99,9 +114,21 @@ const technologies = {
     img: nextjs,
     title: 'Next.js'
   },
+  sass: {
+    img: sass,
+    title: 'Sass'
+  },
   npm: {
     img: npm,
     title: 'npm'
+  },
+  testingLibray: {
+    img: testingLibrary,
+    title: 'Testing Library'
+  },
+  framerMotion: {
+    img: framerMotion,
+    title: 'Framer Motion'
   },
   godot: {
     img: godot,

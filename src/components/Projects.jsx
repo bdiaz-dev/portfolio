@@ -6,7 +6,6 @@ import ProjectsCards from './ProjectsCards'
 
 export default function Projects ({ lang }) {
   const [job, setJob] = useState(0)
-  console.log(content[lang].projects.jobs[job])
 
   return (
     <section id='projects'>

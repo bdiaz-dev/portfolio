@@ -4,7 +4,6 @@ export default function handleExit () {
   bgModal.classList.add('exitBlurAnimation')
   modalPage.classList.add('exitAnimation')
   const animationEnd = () => {
-    console.log('a')
     document.getElementsByTagName('html')[0].style.overflow = 'initial'
     bgModal.style.display = 'none'
     bgModal.classList.remove('exitBlurAnimation')

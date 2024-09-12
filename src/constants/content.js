@@ -24,6 +24,42 @@ export const es = {
     title: 'Proyectos',
     jobs: [
       {
+        title: 'WeatherApp2',
+        text: 'Prueba técnica de consulta de clima de 3 ciudades preestablecidas para muestra de habilidades.',
+        description: [
+          'En esta prueba técnica se solicitó una muestra de habilidades en desarrollo con React en Vite y con Typescript, Sass y testing',
+          'Gracias a este trabajo descubrí el potencial que podía sacar de mi mismo con las herramientas propuestas además de aprender a sacar provecho de librerias que no habia usado',
+          'Aprendí muchas formas de optimizar el desarrollo y la escalabilidad, así como el facilitar el posible trabajo en equipo, gracias a los principios SOLID y Clean code. Cada modulo y componente tiene su propia responsabilidad y ello hace que sea mucho mas sencillo identificar posibles errores y/o mejorar la aplicación.',
+          'Diseño moderno y agradable basado en tarjetas y completamente responsivo.',
+          'Titulo y favicon dinamicos con la ciudad seleccionada y su clima actual.',
+          'Hice uso de contextos para el acceso a estados globales sin necesidad de pasar props o caer en la mala práctica del "prop drilling"',
+          'La mayoria de animaciones se gestionan mediante la librería framer-motion, la cual a pasado a formar parte de mi "caja de herramientas" personal',
+          'La aplicación esta tanto en inglés como español, pudiendo hacer el cambio mediante un pequeño menú de configuracion desplegable. En dicho menú podremos también cambiar de tema (claro, oscuro o sincronizado con el dispositivo',
+          'Uso de modales para el formulario de contacto y la apertura del detalle de clima de cada previsión.',
+          'Se ha tenido en cuenta la accesibilidad y la posibilidad de manejar toda la aplicación con el teclado.',
+          'Con respecto a los estilos se han escrito en Sass, que ofrece de forma nativa el uso de mixins, funciones, variables, estilos condicionales y anidación. Esto me ha proporcionado la posibilidad de conseguir un codigo de estilos mas limpio, organizado y fácilmente depurable y escalable.',
+          'Sintaxis controlada mediante Eslint con Airbnb',
+          'En conclusión he disfrutado mucho del desarrollo de esta aplicación a la par que aprendía muchas tecnicas y herramientas que van a hacer mis futuros desarrollos mas optimos y profesionales.',
+          'Mas información en el Readme del repositorio del proyecto.'
+        ],
+        urls: {
+          site: 'https://weatherapp2.brunodiaz.es',
+          github: 'https://github.com/bdiaz-dev/weather-ts-20'
+        },
+        img: captures.weatherApp2,
+        tech: [
+          technologies.html,
+          technologies.css,
+          technologies.typescript,
+          technologies.react,
+          technologies.vite,
+          technologies.vitest,
+          technologies.testingLibray,
+          technologies.sass,
+          technologies.framerMotion
+        ]
+      },
+      {
         title: 'ReactDee',
         text: 'Componentes para aplicaciones React. Simples, faciles y listos para usar.',
         description: [
@@ -211,6 +247,42 @@ export const en = {
   projects: {
     title: 'Projects',
     jobs: [
+      {
+        title: 'WeatherApp2',
+        text: 'Prueba técnica de consulta de clima de 3 ciudades preestablecidas para muestra de habilidades.',
+        description: [
+          'En esta prueba técnica se solicitó una muestra de habilidades en desarrollo con React en Vite y con Typescript, Sass y testing',
+          'Gracias a este trabajo descubrí el potencial que podía sacar de mi mismo con las herramientas propuestas además de aprender a sacar provecho de librerias que no habia usado',
+          'Aprendí muchas formas de optimizar el desarrollo y la escalabilidad, así como el facilitar el posible trabajo en equipo, gracias a los principios SOLID y Clean code. Cada modulo y componente tiene su propia responsabilidad y ello hace que sea mucho mas sencillo identificar posibles errores y/o mejorar la aplicación.',
+          'Diseño moderno y agradable basado en tarjetas y completamente responsivo.',
+          'Titulo y favicon dinamicos con la ciudad seleccionada y su clima actual.',
+          'Hice uso de contextos para el acceso a estados globales sin necesidad de pasar props o caer en la mala práctica del "prop drilling"',
+          'La mayoria de animaciones se gestionan mediante la librería framer-motion, la cual a pasado a formar parte de mi "caja de herramientas" personal',
+          'La aplicación esta tanto en inglés como español, pudiendo hacer el cambio mediante un pequeño menú de configuracion desplegable. En dicho menú podremos también cambiar de tema (claro, oscuro o sincronizado con el dispositivo',
+          'Uso de modales para el formulario de contacto y la apertura del detalle de clima de cada previsión.',
+          'Se ha tenido en cuenta la accesibilidad y la posibilidad de manejar toda la aplicación con el teclado.',
+          'Con respecto a los estilos se han escrito en Sass, que ofrece de forma nativa el uso de mixins, funciones, variables, estilos condicionales y anidación. Esto me ha proporcionado la posibilidad de conseguir un codigo de estilos mas limpio, organizado y fácilmente depurable y escalable.',
+          'Sintaxis controlada mediante Eslint con Airbnb',
+          'En conclusión he disfrutado mucho del desarrollo de esta aplicación a la par que aprendía muchas tecnicas y herramientas que van a hacer mis futuros desarrollos mas optimos y profesionales.',
+          'Mas información en el Readme del repositorio del proyecto.'
+        ],
+        urls: {
+          site: 'https://weatherapp2.brunodiaz.es',
+          github: 'https://github.com/bdiaz-dev/weather-ts-20'
+        },
+        img: captures.weatherApp2,
+        tech: [
+          technologies.html,
+          technologies.css,
+          technologies.typescript,
+          technologies.react,
+          technologies.vite,
+          technologies.vitest,
+          technologies.testingLibray,
+          technologies.sass,
+          technologies.framerMotion
+        ]
+      },
       {
         title: 'ReactDee',
         text: 'Simply, easy, and ready for use React Components for your apps.',

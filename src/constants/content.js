@@ -218,7 +218,7 @@ export const es = {
     title: 'Habilidades'
   },
   footer: [
-    'Este portfolio ha sido desarrollado con React y compilado con Vite.',
+    'Este portfolio ha sido desarrollado con React bajo el entorno de Vite.',
     'Puede acceder a su repositorio haciendo click ',
     ' aquí.',
     'Si tiene un proyecto en mente no dude en ', 'contactarme.'
@@ -249,22 +249,22 @@ export const en = {
     jobs: [
       {
         title: 'WeatherApp2',
-        text: 'Prueba técnica de consulta de clima de 3 ciudades preestablecidas para muestra de habilidades.',
+        text: 'Technical test for weather consultation of 3 pre-set cities to showcase skills.',
         description: [
-          'En esta prueba técnica se solicitó una muestra de habilidades en desarrollo con React en Vite y con Typescript, Sass y testing',
-          'Gracias a este trabajo descubrí el potencial que podía sacar de mi mismo con las herramientas propuestas además de aprender a sacar provecho de librerias que no habia usado',
-          'Aprendí muchas formas de optimizar el desarrollo y la escalabilidad, así como el facilitar el posible trabajo en equipo, gracias a los principios SOLID y Clean code. Cada modulo y componente tiene su propia responsabilidad y ello hace que sea mucho mas sencillo identificar posibles errores y/o mejorar la aplicación.',
-          'Diseño moderno y agradable basado en tarjetas y completamente responsivo.',
-          'Titulo y favicon dinamicos con la ciudad seleccionada y su clima actual.',
-          'Hice uso de contextos para el acceso a estados globales sin necesidad de pasar props o caer en la mala práctica del "prop drilling"',
-          'La mayoria de animaciones se gestionan mediante la librería framer-motion, la cual a pasado a formar parte de mi "caja de herramientas" personal',
-          'La aplicación esta tanto en inglés como español, pudiendo hacer el cambio mediante un pequeño menú de configuracion desplegable. En dicho menú podremos también cambiar de tema (claro, oscuro o sincronizado con el dispositivo',
-          'Uso de modales para el formulario de contacto y la apertura del detalle de clima de cada previsión.',
-          'Se ha tenido en cuenta la accesibilidad y la posibilidad de manejar toda la aplicación con el teclado.',
-          'Con respecto a los estilos se han escrito en Sass, que ofrece de forma nativa el uso de mixins, funciones, variables, estilos condicionales y anidación. Esto me ha proporcionado la posibilidad de conseguir un codigo de estilos mas limpio, organizado y fácilmente depurable y escalable.',
-          'Sintaxis controlada mediante Eslint con Airbnb',
-          'En conclusión he disfrutado mucho del desarrollo de esta aplicación a la par que aprendía muchas tecnicas y herramientas que van a hacer mis futuros desarrollos mas optimos y profesionales.',
-          'Mas información en el Readme del repositorio del proyecto.'
+          'This technical test required a demonstration of development skills using React with Vite, along with TypeScript, Sass, and testing.',
+          'Thanks to this project, I discovered the potential I could unlock with the proposed tools, as well as learning how to take advantage of libraries I hadn’t used before.',
+          'I learned many ways to optimize development and scalability, while also making it easier for potential team collaboration, thanks to SOLID principles and Clean Code. Each module and component has its own responsibility, making it much easier to identify possible errors and/or improve the application.',
+          'Modern and pleasant design based on cards, fully responsive.',
+          'Dynamic title and favicon that change according to the selected city and its current weather.',
+          'I made use of contexts to access global states without the need to pass props or fall into the bad practice of "prop drilling."',
+          'Most animations are handled using the framer-motion library, which has now become part of my personal "toolbox."',
+          'The application is available in both English and Spanish, and you can switch between them via a small dropdown settings menu. In that menu, you can also change the theme (light, dark, or synced with the device).',
+          'Modals are used for the contact form and to display detailed weather information for each forecast.',
+          'Accessibility has been taken into account, and the entire application can be navigated using only the keyboard.',
+          'Styles are written in Sass, which natively offers the use of mixins, functions, variables, conditional styling, and nesting. This allowed me to create cleaner, more organized, and easily debuggable and scalable styles.',
+          'Code syntax is controlled using Eslint with Airbnb configuration.',
+          'In conclusion, I really enjoyed developing this application while learning many techniques and tools that will make my future developments more efficient and professional.',
+          'More information can be found in the project repository’s Readme.'
         ],
         urls: {
           site: 'https://weatherapp2.brunodiaz.es',
@@ -440,7 +440,7 @@ export const en = {
   },
   footer: [
 
-    'This portfolio has been developed with React and compiled with Vite.',
+    'This portfolio has been developed with React on Vite.',
     'You can access its repository by clicking ',
     'here.',
     'If you have a project in mind, feel free to ', 'contact me.'

@@ -1,0 +1,79 @@
+#menuResponsive {
+  display: none;
+}
+
+.active {
+  color: #5B8FB9;
+  font-weight: bolder;
+  font-size: 2em;
+  margin-left: 40px;
+}
+
+@include mediaFirstBreackpoint {
+  #menu{
+    position: fixed;
+    top: 0;
+    right: 20px;
+    display: flex;
+    z-index: 5000;
+    gap: 15px;
+  }
+
+  a {
+    font-size: 1.2em;
+  }
+
+  .active {
+    color: #5B8FB9;
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin-left: 0;
+    line-height: 1;
+  }
+
+  .menuContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: #03001C;
+    z-index: 4000;
+  }
+}
+
+@media (max-width: 658px) {
+  #menuResponsive {
+    z-index: 300;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    background-color: gray;
+    ul {
+      margin: 0;
+      padding: 0;
+      @include flexConfig(row, center, space-around);
+      
+      li {
+        cursor: pointer;
+        padding: 15px;
+        margin: 0;
+        height: max-content;
+        @include flexConfig();
+        a {
+          @include flexConfig();
+          img {
+            height: 35px;
+          }
+        }
+      }
+    }
+  }
+
+  #menu {
+    display: none;
+  }
+}

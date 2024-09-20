@@ -4,16 +4,6 @@ export default function activeMenu () {
   highlightMenuItem(0)
 
   document.addEventListener('scroll', function () {
-    // function isElementInViewport (el) {
-    //   const rect = el.getBoundingClientRect()
-    //   return (
-    //     rect.top >= 0 &&
-    //     rect.left >= 0 &&
-    //     rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-    //     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    //   )
-    // }
-
     const about = document.getElementById('about').offsetTop
     const projects = document.getElementById('projects').offsetTop
     const skills = document.getElementById('skills')
@@ -31,10 +21,10 @@ export default function activeMenu () {
   function highlightMenuItem (index) {
     // Elimina la clase 'activo' de todos los elementos del menú
     document.querySelectorAll('#menu a').forEach(function (el) {
-      el.classList.remove('activo')
+      el.classList.remove('active')
     })
 
     // Agrega la clase 'activo' al elemento del menú correspondiente
-    document.querySelectorAll('#menu a')[index].classList.add('activo')
+    document.querySelectorAll('#menu a')[index].classList.add('active')
   }
 }

@@ -18,29 +18,17 @@ export default function headerReposition () {
     const nameViewer = document.getElementById('nameViewer')
     const contact = document.getElementById('contactTop')
     const contactViewer = document.getElementById('contactViewer')
-    // const scrollPosition = window.scrollY
 
     if (!isElementInViewport(nameViewer)) {
-      name.style.display = 'block'
+      name.setAttribute('data-isShow', true)
     } else {
-      name.style.display = 'none'
+      name.setAttribute('data-isShow', false)
     }
 
     if (!isElementInViewport(contactViewer)) {
-      contact.style.display = 'block'
+      contact.setAttribute('data-isShow', true)
     } else {
-      contact.style.display = 'none'
+      contact.setAttribute('data-isShow', false)
     }
-    // } else if (isElementInViewport(skills)) {
-    //   repositionItem(2)
-    // }
-    // })
-
-    //   function repositionItem (index) {
-    //     document.querySelectorAll('#nameContainer .toRepo').forEach(function (el) {
-    //       el.classList.remove('repositioned')
-    //     })
-    //     document.querySelectorAll('#nameContainer .toRepo')[index].classList.add('repositioned')
-    //   }
   })
 }

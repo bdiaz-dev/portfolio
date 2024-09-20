@@ -1,8 +1,9 @@
 import { useEffect } from 'react'
 import headerReposition from '../logic/headerReposition'
 import Contact from './Contact'
-import { menu } from '../constants/imgs'
-import * as content from '../constants/content'
+// import { menu } from '../constants/imgs'
+import { content } from '../constants/content'
+// import { motion } from 'framer-motion'
 
 export default function Menu ({ lang }) {
   useEffect(() => {
@@ -26,9 +27,7 @@ export default function Menu ({ lang }) {
       {/* Menu escritorio */}
       <ul id='menu'>
         <li>
-          <button>
-            <a href='#top'>{content[lang].menu.about}</a>
-          </button>
+          <a href='#top'>{content[lang].menu.about}</a>
         </li>
         <li>
           <a href='#projects'>{content[lang].menu.projects}</a>

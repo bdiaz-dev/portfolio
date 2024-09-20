@@ -2,7 +2,7 @@ import { useJob } from '@context/JobProvider'
 import { useLang } from '@context/LangProvider'
 import { getProjectLinks } from '../../logic/getContent'
 
-export default function MdBotomLinks () {
+export default function MdLinks () {
   const { lang } = useLang()
   const { job } = useJob()
   const items = getProjectLinks({ lang, job })

@@ -1,8 +1,16 @@
+
+// mixins
 @import './mixins';
 
+// base
 @import './base';
 @import './layout';
-@import './menuResponsive';
-@import './configMenu';
-@import './modalProject';
-@import './projectCards';
+
+// components
+@import './components/header';
+@import './components/configMenu';
+@import './components/modalProject';
+@import './components/projectCards';
+@import './footer';
+@import './components/menu/menu';
+@import './components/menu/topNameResponsive';

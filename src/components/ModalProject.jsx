@@ -1,11 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
-// import '../styles/ModalProject.scss'
 import { content } from '../constants/content'
-// import handleExit from '../logic/handleExitModal'
-import MdCapture from './modal/MdCapture'
-import MdTitleAndLinks from './modal/MdTitleAndLinks'
 import Techs from './globals/Techs'
-import MdText from './modal/MdText'
 import MdCloseButton from './modal/MdCloseButton'
 import { useJob } from '../context/JobProvider'
 import { useLang } from '../context/LangProvider'
@@ -32,29 +27,23 @@ export default function ModalProject () {
               {/* boton de cierre */}
               <MdCloseButton />
 
+              {/* titulo y enlaces */}
               <h2>
                 {project.title}
-                {/* <a href={project.urls.site} target='blank'>
-                  <img src={modalIcos.go} alt='go to site' />
-                </a>
-                {project.urls.github &&
-                  <a href={project.urls.github} target='blank'>
-                    <img src={modalIcos.gitHub} alt='github' />
-                  </a>} */}
               </h2>
 
               <ul
                 className='botomLinks'
               >
                 <li>
-                  <a href={project.urls.github} target='blank'>
+                  <a href={project.urls.github} target='blank' className='linkButton'>
                     <button>
                       {content[lang].menu.repo}
                     </button>
                   </a>
                 </li>
                 <li>
-                  <a href={project.urls.site} target='blank'>
+                  <a href={project.urls.site} target='blank' className='linkButton'>
                     <button>
                       {content[lang].menu.go}
                     </button>
@@ -62,6 +51,7 @@ export default function ModalProject () {
                 </li>
               </ul>
 
+              {/* texto y captura */}
               <div className='projectModal--textContainer'>
                 <div
                   className='projectModal--img_Container'
@@ -85,18 +75,7 @@ export default function ModalProject () {
                   <p key={t}>{t}</p>
                 ))}
 
-                {/* enlaces final texto */}
-                {/* <MdBotomLinks /> */}
               </div>
-
-              {/* titulo y enlaces */}
-              {/* <MdTitleAndLinks item={project} /> */}
-
-              {/* texto */}
-              {/* <MdText text={project.description} /> */}
-
-              {/* captura */}
-              {/* <MdCapture item={project} /> */}
 
               {/* tecnologias usadas */}
               <Techs

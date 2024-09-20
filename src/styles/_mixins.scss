@@ -21,3 +21,17 @@
       background-position: left;
     }
 }
+
+@mixin mediaFirstBreackpoint {
+  @media (max-width: 1028px) {
+    @content;
+  }
+}
+
+@mixin mediaSecondBreackpoint {
+  @media (max-width: 658px) {
+    @content;
+  }
+}
+
+

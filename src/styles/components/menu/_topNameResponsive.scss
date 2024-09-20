@@ -1,0 +1,48 @@
+#topNameContainer {
+  display: none;
+}
+
+@include mediaFirstBreackpoint {
+  #topNameContainer {
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+    align-items: center;
+    height: 100%;
+    img {
+      scale: 80%;
+    }
+    strong {
+      font-size: 1.5em;
+    }
+  
+    #contactTop,
+    #nameTop {
+      transform-origin: left;
+      display: block;
+      &[data-isShow=true] {
+        transform: scaleX(1);
+      }
+      &[data-isShow=false] {
+        transform: scaleX(0);
+      }
+      transition: all .2s;
+    }
+  }
+  #nameViewer {
+    position: relative;
+    top: -50px;
+  }
+
+  #contactViewer {
+    position: relative;
+    top: -80px;
+  }
+}
+
+@include mediaSecondBreackpoint {
+  #contactTop {
+    position: absolute;
+    top: 3000px;
+  }
+}

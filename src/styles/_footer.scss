@@ -1,0 +1,14 @@
+
+.footer {
+  margin: 30px;
+  text-align: start;
+  a {
+    text-decoration: underline;
+  }
+}
+
+@include mediaSecondBreackpoint {
+  .footer {
+    margin: 0;
+  }
+}

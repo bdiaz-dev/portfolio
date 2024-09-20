@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { useLang } from '../context/LangProvider'
-import { menu } from '../constants/imgs'
+import { useLang } from '@context/LangProvider'
+import { menu } from '@constants/imgs'
 
 export default function LanguageSelector ({ isConfigShow = true }) {
   const { lang, setLang } = useLang()

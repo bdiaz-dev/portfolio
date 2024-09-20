@@ -9,7 +9,7 @@
   margin-left: 40px;
 }
 
-@include mediaFirstBreackpoint {
+@include mediaFirstBreakpoint {
   #menu{
     position: fixed;
     top: 0;
@@ -42,7 +42,7 @@
   }
 }
 
-@media (max-width: 658px) {
+@include mediaSecondBreakpoint {
   #menuResponsive {
     z-index: 300;
     display: block;

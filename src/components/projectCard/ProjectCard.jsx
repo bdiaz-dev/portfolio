@@ -1,8 +1,8 @@
 // import '../styles/projectCards.scss'
-import CardImg from './card/CardImg'
-import CardText from './card/CardText'
+import CardImg from './CardImg'
+import CardText from './CardText'
 
-export default function ProjectsCards ({ item, clickModal }) {
+export default function ProjectCard ({ item, clickModal }) {
   return (
     <article
       className='projectCard'

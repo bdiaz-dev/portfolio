@@ -1,13 +1,7 @@
-// import { useState } from 'react'
-// import { content } from '../../constants/content'
 import { menu } from '../../constants/imgs'
-// import { useLang } from '../../context/LangProvider'
-// import LanguageSelector from '../LanguageSelector'
-import ConfigMenu from './ConfigMenu'
+import ConfigMenu from './configMenu/ConfigMenu'
 
 export default function MenuResponsive () {
-  // const { lang } = useLang()
-  // const [isConfigShow, setIsConfigShow] = useState(false)
   return (
     <div id='menuResponsive'>
       <div>
@@ -23,12 +17,6 @@ export default function MenuResponsive () {
           </li>
           <li>
             <ConfigMenu />
-            {/* <img
-              src={menu.config}
-              onClick={() => setIsConfigShow(!isConfigShow)}
-              alt='config'
-            />
-            <LanguageSelector isConfigShow={isConfigShow} /> */}
           </li>
         </ul>
       </div>

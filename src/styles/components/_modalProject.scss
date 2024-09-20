@@ -14,8 +14,9 @@
   // filter: drop-shadow(2px 2px 3px white);
   border-radius: 10px;
   height: max-content;
-  max-height: 90%;
+  max-height: 80%;
   width: 70%;
+  max-width: 80%;
   padding: 40px;
   background-color: #070138;// #301E67;
   @include flexConfig(column);
@@ -201,12 +202,12 @@
   }
 }
 
-@media (max-width: 1028px) {
+@include mediaFirstBreakpoint {
   .projectModal {
     margin-top: 70px;
     z-index: 9000;
     width: 90%;
-    height: 85%;
+    height: 70%;
     @media (max-width: 658px) {
       h2 {
         width: 85%;
@@ -214,7 +215,7 @@
       .projectModal--img_Container {
         max-width: 100%;
         .projectModal--img{
-          max-width: 85%;
+          max-width: 80%;
         }
       }
       .projectModal--textContainer{

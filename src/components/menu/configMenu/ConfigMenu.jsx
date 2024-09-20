@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { menu } from '../../constants/imgs'
-import LanguageSelector from '../LanguageSelector'
+import { menu } from '@constants/imgs'
+import LanguageSelector from './LanguageSelector'
 import { motion } from 'framer-motion'
 
 export default function ConfigMenu ({ isDesktop = false }) {

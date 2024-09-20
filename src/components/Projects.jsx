@@ -2,7 +2,7 @@
 import * as content from '../constants/content'
 // import handleOpenModal from '../logic/handleOpenModal'
 // import ModalProject from './ModalProject'
-import ProjectsCards from './ProjectsCards'
+import ProjectCard from '@components/projectCard/ProjectCard'
 import { useJob } from '../context/JobProvider'
 
 export default function Projects ({ lang }) {
@@ -20,7 +20,7 @@ export default function Projects ({ lang }) {
       </h1>
       {
         content[lang].projects.jobs.map((item, index) => (
-          <ProjectsCards
+          <ProjectCard
             key={item.title}
             item={item}
             clickModal={() => handleSetJob(index)}

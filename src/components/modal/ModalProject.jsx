@@ -1,10 +1,10 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { content } from '../constants/content'
-import Techs from './globals/Techs'
-import MdCloseButton from './modal/MdCloseButton'
-import { useJob } from '../context/JobProvider'
-import { useLang } from '../context/LangProvider'
-import { modalIcos } from '../constants/imgs'
+import { content } from '@constants/content'
+import Techs from '../globals/Techs'
+import MdCloseButton from './MdCloseButton'
+import { useJob } from '@context/JobProvider'
+import { useLang } from '@context/LangProvider'
+import { modalIcos } from '@constants/imgs'
 
 export default function ModalProject () {
   const { job } = useJob()

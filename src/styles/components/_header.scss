@@ -42,7 +42,7 @@
   }
 }
 
-@include mediaFirstBreackpoint {
+@include mediaFirstBreakpoint {
   .header {
     position: initial;
     margin-left: 60px;
@@ -52,7 +52,7 @@
   }
 }
 
-@include mediaSecondBreackpoint {
+@include mediaSecondBreakpoint {
   .header {
     margin: 0;
   }

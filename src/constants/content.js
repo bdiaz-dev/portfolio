@@ -453,3 +453,8 @@ export const en = {
     go: 'Visit project'
   }
 }
+
+export const content = {
+  es,
+  en
+}

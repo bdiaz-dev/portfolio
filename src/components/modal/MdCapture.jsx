@@ -1,4 +1,6 @@
-export default function MdCapture ({ item, go }) {
+import { modalIcos } from '@constants/imgs'
+
+export default function MdCapture ({ item }) {
   return (
     <div
       className='projectModal--img_Container'
@@ -14,7 +16,7 @@ export default function MdCapture ({ item, go }) {
       <img
         className='imgIconGo'
         onClick={() => { window.open(`${item.urls.site}`, '_blank') }}
-        src={go}
+        src={modalIcos.go}
         alt='go to site'
       />
     </div>

@@ -1,19 +1,24 @@
-export default function MdBotomLinks ({ item, txt }) {
+import { useJob } from '@context/JobProvider'
+import { useLang } from '@context/LangProvider'
+import { getProjectLinks } from '../../logic/getContent'
+
+export default function MdBotomLinks () {
+  const { lang } = useLang()
+  const { job } = useJob()
+  const items = getProjectLinks({ lang, job })
   return (
     <ul
       className='botomLinks'
     >
       <li>
-        {item.urls.github &&
-          <a href={item.urls.github} target='blank'>
-            {txt.repo}
-          </a>}
+        <a href={items.repoLink} target='blank'>
+          {items.repoText}
+        </a>
       </li>
       <li>
-        {item.urls.site &&
-          <a href={item.urls.site} target='blank'>
-            {txt.go}
-          </a>}
+        <a href={items.goLink} target='blank'>
+          {items.goText}
+        </a>
       </li>
     </ul>
   )

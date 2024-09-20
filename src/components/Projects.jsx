@@ -1,11 +1,16 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import * as content from '../constants/content'
-import handleOpenModal from '../logic/handleOpenModal'
-import ModalProject from './ModalProject'
+// import handleOpenModal from '../logic/handleOpenModal'
+// import ModalProject from './ModalProject'
 import ProjectsCards from './ProjectsCards'
+import { useJob } from '../context/JobProvider'
 
 export default function Projects ({ lang }) {
-  const [job, setJob] = useState(0)
+  const { setJob } = useJob()
+  const handleSetJob = (i) => {
+    setJob(i)
+    document.documentElement.setAttribute('data-scrollcancel', 'true')
+  }
 
   return (
     <section id='projects'>
@@ -18,15 +23,11 @@ export default function Projects ({ lang }) {
           <ProjectsCards
             key={item.title}
             item={item}
-            clickModal={() => handleOpenModal(index, setJob)}
+            clickModal={() => handleSetJob(index)}
           />
         ))
       }
-      <ModalProject
-        item={content[lang].projects.jobs[job]}
-        repo={content[lang].menu.repo}
-        go={content[lang].menu.go}
-      />
+      {/* <ModalProject /> */}
     </section>
   )
 }

@@ -35,9 +35,12 @@ import cvIco from '../assets/svg/cv.svg'
 import go from '../assets/svg/link.svg'
 import close from '../assets/svg/close.svg'
 
-import projects from '../assets/svg/projects.svg'
-import skills from '../assets/svg/skills.svg'
-import info from '../assets/svg/info.svg'
+import projects from '../assets/svg/menuIcons/jobs.svg'
+import skills from '../assets/svg/menuIcons/skills.svg'
+import info from '../assets/svg/menuIcons/info.svg'
+import config from '../assets/svg/menuIcons/config.svg'
+import esp from '../assets/svg/menuIcons/config/lang/esp.svg'
+import eng from '../assets/svg/menuIcons/config/lang/eng.svg'
 
 const captures = {
   onaGames,
@@ -66,7 +69,10 @@ const modalIcos = {
 const menu = {
   info,
   projects,
-  skills
+  skills,
+  config,
+  esp,
+  eng
 }
 
 const technologies = {

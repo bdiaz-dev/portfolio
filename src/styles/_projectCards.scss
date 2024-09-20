@@ -1,10 +1,14 @@
 .projectCard {
+  margin: 0;
   border-radius: 10px;
   margin-bottom: 30px;
 
   display: flex;
+  gap: 20px;
   flex-wrap: nowrap;
-  padding: 10px;
+  padding: 20px;
+  
+  max-width: 100%;
 
   cursor: pointer;
 
@@ -12,7 +16,11 @@
   &:hover {
     scale: 103%;
     background-color: #070138;
-    box-shadow: 1px 1px 10px #C2D9FF;
+    // box-shadow: 1px 1px 10px #C2D9FF;
+  }
+  
+  &:active {
+    scale: 95%;
   }
 }
 
@@ -20,7 +28,7 @@
 .projectCard--imgContainer {
   width: 40%;
   margin: 0;
-  padding: 20px;
+  // padding: 20px;
 
   .projectCard--img {
     width: 100%;
@@ -33,7 +41,8 @@
 
   .projectCard--title {
     text-align: start;
-    margin-top: 15px;
+    margin-top: 0;
+    line-height: 1;
     margin-bottom: 0.4em;
   }
 
@@ -60,7 +69,7 @@
 
 @media (max-width: 658px) {
   .projectCard {
-    width: 100%;
+    // width: 100%;
     flex-direction: column;
     align-items: start;
     margin-left: -10px;

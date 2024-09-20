@@ -26,7 +26,9 @@ export default function Menu ({ lang }) {
       {/* Menu escritorio */}
       <ul id='menu'>
         <li>
-          <a href='#top'>{content[lang].menu.about}</a>
+          <button>
+            <a href='#top'>{content[lang].menu.about}</a>
+          </button>
         </li>
         <li>
           <a href='#projects'>{content[lang].menu.projects}</a>
@@ -37,7 +39,7 @@ export default function Menu ({ lang }) {
       </ul>
 
       {/* Menu movil */}
-      <ul id='menuMini'>
+      {/* <ul id='menuMini'>
         <li>
           <a href='#top'><img src={menu.info} alt='info' /></a>
         </li>
@@ -47,8 +49,7 @@ export default function Menu ({ lang }) {
         <li>
           <a href='#skills'><img src={menu.skills} alt='skills' /></a>
         </li>
-      </ul>
-
+      </ul> */}
     </nav>
   )
 }

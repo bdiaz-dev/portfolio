@@ -1,6 +1,8 @@
-export default function MdTitleAndLinks ({ item, modalIcos }) {
+import { modalIcos } from '@constants/imgs'
+
+export default function MdTitleAndLinks ({ item }) {
   return (
-    <h2 className='projectModal--title'>
+    <h2>
       {item.title}
       <a href={item.urls.site} target='blank'>
         <img src={modalIcos.go} alt='go to site' />

@@ -10,8 +10,6 @@
 
 .projectModal {
   position: relative;
-  // border: 2px solid #B4D4FF;
-  // filter: drop-shadow(2px 2px 3px white);
   border-radius: 10px;
   height: max-content;
   max-height: 80%;
@@ -27,31 +25,13 @@
     font-size: 2.5em;
     text-align: start;
     margin: 10px;
-    // margin-top: 30px;
-    // margin-bottom: 0.4em;
     color: #176B87;
     @include flexConfig(row, center, center, 20px);
   
-    // a {
-    //   line-height: 0;
-    // }
-    
-    
-  
-    // img {
-    //   width: 25px;
-    //   filter: invert(.9) drop-shadow(0px 0px 10px #176B87);
-    //   transition: all .3s;
-    // }
-  
-    // img:hover {
-    //   filter: invert(1) drop-shadow(0px 0px 10px white);
-    // }
   }
   
   .projectModal--textContainer {
     font-size: .9em;
-    // max-width: 75%;
     max-height: 50%;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -76,7 +56,6 @@
     
       .projectModal--img {
         max-width: 30em;
-        // border: 2px solid #B4D4FF;
         cursor: pointer;
         transition: all .3s;
       }
@@ -108,7 +87,6 @@
     }
     
     p {
-      // margin: 0.4em 0.6em auto 0 !important;
       margin: 0 20px;
       text-align: start;
       font-size: 1.3em;
@@ -155,53 +133,6 @@
   }
 }
 
-.exitAnimation {
-  animation-name: exit;
-  animation-duration: .5s;
-  animation-fill-mode: forwards;
-}
-
-.exitBlurAnimation {
-  animation-name: blurAnimation;
-  animation-duration: .3s;
-  animation-fill-mode: forwards;
-  animation-direction: reverse;
-}
-
-.enterAnimation {
-  animation-name: exit;
-  animation-duration: .4s;
-  animation-fill-mode: forwards;
-  animation-direction: reverse;
-
-}
-
-.enterBlurAnimation {
-  animation-name: blurAnimation;
-  animation-duration: .3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes exit {
-  0% {
-    transform: translateX(0);
-  }
-
-  100% {
-    transform: translateX(5000px);
-  }
-}
-
-@keyframes blurAnimation {
-  0% {
-    backdrop-filter: blur(0);
-  }
-
-  100% {
-    backdrop-filter: blur(10px);
-  }
-}
-
 @include mediaFirstBreakpoint {
   .projectModal {
     margin-top: 70px;
@@ -228,3 +159,52 @@
     }
   }
 }
+
+
+// .exitAnimation {
+//   animation-name: exit;
+//   animation-duration: .5s;
+//   animation-fill-mode: forwards;
+// }
+
+// .exitBlurAnimation {
+//   animation-name: blurAnimation;
+//   animation-duration: .3s;
+//   animation-fill-mode: forwards;
+//   animation-direction: reverse;
+// }
+
+// .enterAnimation {
+//   animation-name: exit;
+//   animation-duration: .4s;
+//   animation-fill-mode: forwards;
+//   animation-direction: reverse;
+
+// }
+
+// .enterBlurAnimation {
+//   animation-name: blurAnimation;
+//   animation-duration: .3s;
+//   animation-fill-mode: forwards;
+// }
+
+// @keyframes exit {
+//   0% {
+//     transform: translateX(0);
+//   }
+
+//   100% {
+//     transform: translateX(5000px);
+//   }
+// }
+
+// @keyframes blurAnimation {
+//   0% {
+//     backdrop-filter: blur(0);
+//   }
+
+//   100% {
+//     backdrop-filter: blur(10px);
+//   }
+// }
+

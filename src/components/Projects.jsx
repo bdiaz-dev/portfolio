@@ -15,7 +15,7 @@ export default function Projects ({ lang }) {
   return (
     <section id='projects'>
       <div id='projectsResponsiveTag' />
-      <h1 className='P textColored'>
+      <h1 className='textColored'>
         {content[lang].projects.title}
       </h1>
       {

@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { menu } from '@constants/imgs'
-import LanguageSelector from './LanguageSelector'
 import { motion } from 'framer-motion'
+import ConfigModal from './ConfigModal'
 
 export default function ConfigMenu ({ isDesktop = false }) {
   const [isConfigShow, setIsConfigShow] = useState(false)
   return (
-    <div id='configMenu' data-isDesktop={isDesktop}>
+    <div id='configMenu' data-isdesktop={isDesktop}>
       <motion.img
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
@@ -14,7 +14,7 @@ export default function ConfigMenu ({ isDesktop = false }) {
         onClick={() => setIsConfigShow(!isConfigShow)}
         alt='config'
       />
-      <LanguageSelector isConfigShow={isConfigShow} />
+      <ConfigModal isConfigShow={isConfigShow} />
     </div>
   )
 }

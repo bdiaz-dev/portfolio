@@ -1,21 +1,23 @@
+#projects {
+  h1 {
+    @include generalTextConfig;
+  }
+}
+
 .projectCard {
   margin: 0;
   border-radius: 10px;
   margin-bottom: 30px;
-
-  display: flex;
-  gap: 20px;
+  @include flexConfig(row, start, center, 20px);
   flex-wrap: nowrap;
   padding: 20px;
-  
   max-width: 100%;
-
   cursor: pointer;
-
   transition: all .3s;
+  
   &:hover {
     scale: 103%;
-    background-color: #070138;
+    background-color: var(--projectCard-hoverColor);
     // box-shadow: 1px 1px 10px #C2D9FF;
   }
   
@@ -23,7 +25,6 @@
     scale: 95%;
   }
 }
-
 
 .projectCard--imgContainer {
   width: 40%;

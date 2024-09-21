@@ -4,14 +4,13 @@ export default function activeMenu () {
   highlightMenuItem(0)
 
   document.addEventListener('scroll', function () {
-    const about = document.getElementById('about').offsetTop
-    const projects = document.getElementById('projects').offsetTop
+    const aboutHeight = document.getElementById('about').offsetHeight
     const skills = document.getElementById('skills')
     const scrollPosition = window.scrollY
 
-    if (scrollPosition < about) {
+    if (scrollPosition < aboutHeight) {
       highlightMenuItem(0)
-    } else if (scrollPosition < projects && !isElementInViewport(skills)) {
+    } else if (scrollPosition > aboutHeight && !isElementInViewport(skills)) {
       highlightMenuItem(1)
     } else if (isElementInViewport(skills)) {
       highlightMenuItem(2)

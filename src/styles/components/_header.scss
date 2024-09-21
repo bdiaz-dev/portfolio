@@ -1,5 +1,5 @@
 
-.header {
+#header {
   margin-top: 15px;
   position: sticky;
   top: 10em;
@@ -10,7 +10,7 @@
 
   .fotoContainer {
     border-radius: 200%;
-    border: solid 2px #5B8FB9;
+    border: solid 2px var(--textEnfasisColor);
     overflow: hidden;
     height: 150px;
     width: 150px;
@@ -20,9 +20,22 @@
     }
   }
 
-  .nameContainer {
+  #nameContainer {
     text-align: start;
     max-width: 400px;
+    
+    h1 {
+      text-align: start;
+      font-size: 3.2em;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    
+    h2 {
+      text-align: start;
+      margin-top: 0;
+      text-wrap: balance;
+    }
   }
 
   .contactContainer {
@@ -43,7 +56,7 @@
 }
 
 @include mediaFirstBreakpoint {
-  .header {
+  #header {
     position: initial;
     margin-left: 60px;
     top: 0;
@@ -53,7 +66,7 @@
 }
 
 @include mediaSecondBreakpoint {
-  .header {
+  #header {
     margin: 0;
   }
 }

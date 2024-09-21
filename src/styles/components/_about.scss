@@ -1,0 +1,8 @@
+#about {
+  article {
+    h1,
+    p {
+      @include generalTextConfig;
+    }
+  }
+}

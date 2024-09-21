@@ -9,10 +9,13 @@
 @import './layout';
 
 // components
+@import './components/configComponents/themeSelector';
 @import './components/header';
 @import './components/configMenu';
+@import './components/about';
 @import './components/modalProject';
 @import './components/projectCards';
+@import './components/skills';
 @import './footer';
 @import './components/menu/menu';
 @import './components/menu/topNameResponsive';

@@ -1,2 +1,32 @@
+// [data-isdark=true] {
+  $backgroundColor: #03001C;
+  $projectCard-hoverColor: #070138;
+  $projectModal-backgroundColor:#070138;
+  $textEnfasisColor: #5B8FB9;
+  $bottomMenu-color: gray;
+// }
 
-$backgroundColor: #03001C;
+.lightMode {
+  $backgroundColor: #03001C;
+  $projectCard-hoverColor: #070138;
+  $projectModal-backgroundColor:#070138;
+  $textEnfasisColor: #5B8FB9;
+  $bottomMenu-color: black;
+}
+
+:root {
+  --backgroundColor: #03001C;
+  --projectCard-hoverColor: #070138;
+  --projectModal-backgroundColor:#070138;
+  --textEnfasisColor: #5B8FB9;
+  --bottomMenu-color: gray;
+}
+
+html.lightMode {
+  color: black;
+  --backgroundColor: slategray;
+  --projectCard-hoverColor: #a1d4e0;
+  --projectModal-backgroundColor:#a1d4e0;
+  --textEnfasisColor: #062866;
+  --bottomMenu-color: rgb(168, 220, 255);
+}

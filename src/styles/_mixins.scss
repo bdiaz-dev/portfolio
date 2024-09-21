@@ -6,6 +6,15 @@
   gap: $gap;
 }
 
+@mixin widthHeight($width: auto, $height: auto) {
+  width: $width;
+  height: $height;
+}
+
+@mixin maxWidthHeight($width: none, $height: none) {
+  max-width: $width;
+  max-height: $height;
+}
 @mixin button {
     font-family: 'Kanit', Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -22,6 +31,17 @@
     }
 }
 
+@mixin generalTextConfig {
+    text-align: start;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-left: 30px;
+    @include mediaSecondBreakpoint {
+      margin: 0 0 20px 0 !important;
+      font-size: 1em !important;
+    }
+}
+
 @mixin mediaFirstBreakpoint {
   @media (max-width: 1028px) {
     @content;
@@ -33,5 +53,3 @@
     @content;
   }
 }
-
-

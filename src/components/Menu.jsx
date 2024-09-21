@@ -36,19 +36,6 @@ export default function Menu ({ lang }) {
           <a href='#skills'>{content[lang].menu.skills}</a>
         </li>
       </ul>
-
-      {/* Menu movil */}
-      {/* <ul id='menuMini'>
-        <li>
-          <a href='#top'><img src={menu.info} alt='info' /></a>
-        </li>
-        <li>
-          <a href='#projectsResponsiveTag'><img src={menu.projects} alt='projects' /></a>
-        </li>
-        <li>
-          <a href='#skills'><img src={menu.skills} alt='skills' /></a>
-        </li>
-      </ul> */}
     </nav>
   )
 }

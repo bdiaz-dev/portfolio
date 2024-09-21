@@ -4,133 +4,37 @@
   gap: 30px;
 }
 
-
 .main {
   width: 60%;
   @include flexConfig(column, center, center, 7em);
 }
 
-#skills {
-  margin-bottom: 120px;
-  z-index: -2;
-}
-
-// .activo {
-//   color: #5B8FB9;
-//   font-weight: bolder;
-//   font-size: 2em;
-//   margin-left: 40px;
-// }
-
-.skillsImgContainer {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  gap: 20px;
-  filter: drop-shadow(1px 1px 10px #5129c8);
-  margin-left: 30px;
-}
-
-.textColored {
-  color: #5B8FB9;
-}
 
 #projectsResponsiveTag {
   position: relative;
   top: -60px;
 }
 
-@media (max-width: 1028px) {
+@include mediaFirstBreakpoint {
   .allContainer {
     flex-direction: column;
     margin: auto;
     align-items: center;
   }
 
-
-
   .main {
     width: 100%;
   }
 
-  // #menu{
-  //   position: fixed;
-  //   top: 0;
-  //   right: 20px;
-  //   display: flex;
-  //   z-index: 5000;
-  //   gap: 15px;
-  // }
-
-  // a {
-  //   font-size: 1.2em;
-  // }
-
-  // .activo {
-  //   color: #5B8FB9;
-  //   font-weight: bolder;
-  //   font-size: 1.2em;
-  //   margin-left: 0;
-  // }
-
-  // .menuContainer {
-  //   position: fixed;
-  //   top: 0;
-  //   right: 0;
-  //   width: 100vw;
-  //   height: 60px;
-  //   background-color: #03001C;
-  //   z-index: 4000;
-  // }
-
-  // #nameViewer {
-  //   position: relative;
-  //   top: -50px;
-  // }
-
-  // #contactViewer {
-  //   position: relative;
-  //   top: -80px;
-  // }
-
 }
 
-@media (max-width: 658px) {
+@include mediaSecondBreakpoint {
   .allContainer {
     justify-content: start;
     margin-bottom: 30px;
   }
 
-  // #menu {
-  //   display: none;
-  // }
-
-  // #menuMini {
-  //   display: flex;
-  // }
-
-  // #contactTop {
-  //   position: absolute;
-  //   top: 3000px;
-  // }
-
-
-
-  .P {
-    margin: 0 0 20px 0 !important;
-    font-size: 1em !important;
-  }
-
-  .skillsImgContainer {
-    margin-left: 0;
-    margin-top: 15px;
-  }
-
   .hr {
     width: 60%;
   }
-
-
-
 }

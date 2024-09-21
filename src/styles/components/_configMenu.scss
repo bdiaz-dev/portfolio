@@ -1,22 +1,21 @@
   #configMenu {
     border-radius: 50%;
-    background-color: gray;
+    background-color: var(--bottomMenu-color);
     padding: 10px;
     margin: 0;
     height: max-content;
     width: max-content;
     @include flexConfig();
     
-    
-    
     img {
       height: 35px;
       cursor: pointer;
     }
-
-    .languageSelector {
+    
+    .configModal {
+      @include flexConfig(column, center, center, 10px);
       padding: 15px;
-      background-color: gray;
+      background-color: var(--bottomMenu-color);
       border-radius: 15px;
       position: absolute;
       top: -20px;
@@ -24,6 +23,10 @@
       height: max-content;
       width: max-content;
       transform-origin: bottom;
+      
+      b {
+        font-size: 1.2em
+      }
 
       ul {
         @include flexConfig(column, center, center, 2px);
@@ -44,19 +47,19 @@
       }
     }
     
-    &[data-isDesktop=true] {
+    &[data-isdesktop=true] {
       position: fixed;
       bottom: 20px;
       left: 20px;
-      .languageSelector {
+      .configModal {
         left: 0;
       }
     }
   }
 
-@media (max-width: 658px) {
+@include mediaSecondBreakpoint {
   #configMenu {
-    &[data-isDesktop=true] {
+    &[data-isdesktop=true] {
       display: none;
     }
     cursor: pointer;
@@ -69,9 +72,9 @@
       height: 35px;
     }
 
-    .languageSelector {
+    .configModal {
       padding: 15px;
-      background-color: gray;
+      background-color: var(--bottomMenu-color);
       border-radius: 15px;
       position: absolute;
       top: -20px;

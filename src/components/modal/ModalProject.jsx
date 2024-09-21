@@ -38,14 +38,16 @@ export default function ModalProject () {
                 <li>
                   <a href={project.urls.github} target='blank' className='linkButton'>
                     <button>
-                      {content[lang].menu.repo}
+                      <span className='textMode'>{content[lang].menu.repo}</span>
+                      <img className='iconMode' src={modalIcos.gitHub} alt='gitHub repo' />
                     </button>
                   </a>
                 </li>
                 <li>
                   <a href={project.urls.site} target='blank' className='linkButton'>
                     <button>
-                      {content[lang].menu.go}
+                      <span className='textMode'>{content[lang].menu.go}</span>
+                      <img className='iconMode' src={modalIcos.go} alt='go site' />
                     </button>
                   </a>
                 </li>

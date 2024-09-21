@@ -19,6 +19,7 @@
     #contactTop,
     #nameTop {
       transform-origin: left;
+      transform: scaleX(0);
       display: block;
       &[data-isShow=true] {
         transform: scaleX(1);

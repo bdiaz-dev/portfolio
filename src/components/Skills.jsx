@@ -7,6 +7,7 @@ export default function Skills ({ lang }) {
       id='skills'
       style={{ zIndex: '100' }}
     >
+      <div id='skillsResponsiveTag' />
       <h1 className='textColored'>{content[lang].skills.title}</h1>
       <div className='skillsImgContainer'>
         {techs.map((tech) => (

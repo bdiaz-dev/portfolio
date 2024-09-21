@@ -18,6 +18,9 @@
 }
 
 @include mediaSecondBreakpoint {
+  #skillsResponsiveTag {
+    transform: translateY(-70px);
+  }
   .skillsImgContainer {
     margin-left: 0;
     margin-top: 15px;

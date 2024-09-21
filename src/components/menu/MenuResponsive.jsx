@@ -13,7 +13,7 @@ export default function MenuResponsive () {
             <a href='#projectsResponsiveTag'><img src={menu.projects} alt='projects' /></a>
           </li>
           <li>
-            <a href='#skills'><img src={menu.skills} alt='skills' /></a>
+            <a href='#skillsResponsiveTag'><img src={menu.skills} alt='skills' /></a>
           </li>
           <li>
             <ConfigMenu />

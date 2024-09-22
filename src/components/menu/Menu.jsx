@@ -1,9 +1,7 @@
 import { useEffect } from 'react'
-import headerReposition from '../logic/headerReposition'
-import Contact from './Contact'
-// import { menu } from '../constants/imgs'
-import { content } from '../constants/content'
-// import { motion } from 'framer-motion'
+import headerReposition from '@logic/headerReposition'
+import Contact from '../Contact'
+import { content } from '@constants/content'
 
 export default function Menu ({ lang }) {
   useEffect(() => {

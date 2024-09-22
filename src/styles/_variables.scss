@@ -20,13 +20,15 @@
   --projectModal-backgroundColor:#070138;
   --textEnfasisColor: #5B8FB9;
   --bottomMenu-color: gray;
+  --svg-invert: invert(0.6);
 }
 
 html.lightMode {
   color: black;
-  --backgroundColor: slategray;
+  --backgroundColor: rgb(229, 240, 252);
   --projectCard-hoverColor: #a1d4e0;
   --projectModal-backgroundColor:#a1d4e0;
   --textEnfasisColor: #062866;
-  --bottomMenu-color: rgb(168, 220, 255);
+  --bottomMenu-color: rgb(201, 226, 243);
+  --svg-invert: invert(0.2);
 }

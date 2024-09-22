@@ -18,7 +18,7 @@ export const es = {
   },
   about: {
     title: 'Sobre mi',
-    text: 'Soy una persona con una curiosidad infinita, especialmente en lo que respecta a la tecnología. Esto siempre me ha llevado a investigar cómo funcionan las cosas y a comprobar si soy capaz de hacerlas. Fue gracias a que un día decidí explorar el mundo del desarrollo independiente de videojuegos que descubrí una verdadera pasión: la programación. Me encanta construir tanto juegos como aplicaciones web con experiencias de usuario agradables y/o divertidas, y estoy siempre abierto a nuevos proyectos.'
+    text: 'Soy una persona con una curiosidad infiníta, especialmente en lo que respecta a la tecnología. Esto siempre me ha llevado a investigar cómo funcionan las cosas y a comprobar si soy capaz de hacerlas. Fue gracias a que un día decidí explorar el mundo del desarrollo independiente de videojuegos que descubrí una verdadera pasión: la programación. Me encanta construir tanto juegos como aplicaciones web con experiencias de usuario agradables y/o divertidas, y estoy siempre abierto a nuevos proyectos.'
   },
   projects: {
     title: 'Proyectos',
@@ -27,20 +27,20 @@ export const es = {
         title: 'WeatherApp2',
         text: 'Prueba técnica de consulta de clima de 3 ciudades preestablecidas para muestra de habilidades.',
         description: [
-          'En esta prueba técnica se solicitó una muestra de habilidades en desarrollo con React en Vite y con Typescript, Sass y testing',
-          'Gracias a este trabajo descubrí el potencial que podía sacar de mi mismo con las herramientas propuestas además de aprender a sacar provecho de librerias que no habia usado',
-          'Aprendí muchas formas de optimizar el desarrollo y la escalabilidad, así como el facilitar el posible trabajo en equipo, gracias a los principios SOLID y Clean code. Cada modulo y componente tiene su propia responsabilidad y ello hace que sea mucho mas sencillo identificar posibles errores y/o mejorar la aplicación.',
-          'Diseño moderno y agradable basado en tarjetas y completamente responsivo.',
-          'Titulo y favicon dinamicos con la ciudad seleccionada y su clima actual.',
-          'Hice uso de contextos para el acceso a estados globales sin necesidad de pasar props o caer en la mala práctica del "prop drilling"',
-          'La mayoria de animaciones se gestionan mediante la librería framer-motion, la cual a pasado a formar parte de mi "caja de herramientas" personal',
-          'La aplicación esta tanto en inglés como español, pudiendo hacer el cambio mediante un pequeño menú de configuracion desplegable. En dicho menú podremos también cambiar de tema (claro, oscuro o sincronizado con el dispositivo',
-          'Uso de modales para el formulario de contacto y la apertura del detalle de clima de cada previsión.',
-          'Se ha tenido en cuenta la accesibilidad y la posibilidad de manejar toda la aplicación con el teclado.',
-          'Con respecto a los estilos se han escrito en Sass, que ofrece de forma nativa el uso de mixins, funciones, variables, estilos condicionales y anidación. Esto me ha proporcionado la posibilidad de conseguir un codigo de estilos mas limpio, organizado y fácilmente depurable y escalable.',
-          'Sintaxis controlada mediante Eslint con Airbnb',
-          'En conclusión he disfrutado mucho del desarrollo de esta aplicación a la par que aprendía muchas tecnicas y herramientas que van a hacer mis futuros desarrollos mas optimos y profesionales.',
-          'Mas información en el Readme del repositorio del proyecto.'
+          'En esta prueba técnica se solicitó una muestra de habilidades en desarrollo con React, Vite, TypeScript, Sass y testing.',
+          'Gracias a este trabajo, descubrí el potencial que podía aprovechar de mí mismo con las herramientas propuestas, además de aprender a sacar provecho de librerías que no había utilizado anteriormente.',
+          'Aprendí muchas formas de optimizar el desarrollo y la escalabilidad, así como facilitar el trabajo en equipo, gracias a los principios SOLID y Clean Code. Cada módulo y componente tiene su propia responsabilidad, lo que hace mucho más sencillo identificar posibles errores y/o mejorar la aplicación.',
+          'El diseño es moderno y agradable, basado en tarjetas y completamente responsivo.',
+          'El título y el favicon son dinámicos, actualizándose según la ciudad seleccionada y su clima actual.',
+          'Hice uso de contextos para el acceso a estados globales sin necesidad de pasar props o recurrir a la mala práctica del "prop drilling".',
+          'La mayoría de animaciones se gestionan mediante la librería Framer Motion, que ahora forma parte de mi "caja de herramientas" personal.',
+          'La aplicación está disponible tanto en inglés como en español, permitiendo el cambio de idioma mediante un pequeño menú de configuración desplegable. En dicho menú también es posible cambiar el tema (claro, oscuro o sincronizado con el dispositivo).',
+          'Uso de modales para el formulario de contacto y para mostrar el detalle del clima en cada previsión.',
+          'Se ha tenido en cuenta la accesibilidad, permitiendo manejar toda la aplicación con el teclado.',
+          'Los estilos se han escrito en Sass, lo que ofrece de forma nativa el uso de mixins, funciones, variables, estilos condicionales y anidación. Esto ha permitido lograr un código de estilos más limpio, organizado, fácilmente depurable y escalable.',
+          'El código ha sido controlado mediante ESLint con la configuración de Airbnb.',
+          'En conclusión, he disfrutado mucho del desarrollo de esta aplicación, aprendiendo técnicas y herramientas que harán que mis futuros proyectos sean más óptimos y profesionales.',
+          'Más información en el README del repositorio del proyecto.'
         ],
         urls: {
           site: 'https://weatherapp2.brunodiaz.es',
@@ -63,12 +63,11 @@ export const es = {
         title: 'ReactDee',
         text: 'Componentes para aplicaciones React. Simples, faciles y listos para usar.',
         description: [
-          'Para este proyecto quería crear una herramienta que facilitara un poco la creación de aplicaciones web con React. Por lo que decidí crear un catalogo de componentes, pero con una particularidad.',
-          'ReactDee se basa en la simplicidad a la hora de implementar y configurar estos componentes. A parte de poder copiar el codigo desde el repositorio, se ofrece la posibilidad de instalarlo mediante paquetes de "NPM". Con un solo comando de terminal, simple y sencillo de recordar, se puede conseguir un componente que estara listo para importar en el correspondiente proyecto.',
-          'Con respecto a la configuracion personalizada, se realiza de forma facil mediante el uso de props. Y sin necesidad de usar CSS para los estilos.',
-          'Consiguiendo con muy pocas lineas de codigo, sin necesidad de instalaciones ni configuraciones adicionales en otros archivos, componentes funcionales y agradables para el usuario final',
-          'En estos momentos se puede contar con cuatro componentes con los que ya se puede construir una sencilla web, pero hay planes de ir ampliando y actualizando la herramienta.',
-          'En este caso, ademas de los componentes, también trabajé en la construccion del sitio web que alojaría la documentación y presentación de este proyecto. Creado con NextJS, para aprovechar cosas como su enrutamiento o la optimización con su renderizado en servidor.'
+          'Para este proyecto, quería crear una herramienta que facilitara la creación de aplicaciones web con React. Decidí crear un catálogo de componentes, pero con una particularidad.',
+          'ReactDee se basa en la simplicidad a la hora de implementar y configurar estos componentes. Además de poder copiar el código desde el repositorio, se ofrece la posibilidad de instalarlo mediante paquetes de "npm". Con un solo comando de terminal, simple y fácil de recordar, se puede obtener un componente listo para importar en el proyecto correspondiente.',
+          'La configuración personalizada se realiza de forma sencilla mediante el uso de props, sin necesidad de utilizar CSS para los estilos. Con muy pocas líneas de código, y sin instalaciones o configuraciones adicionales, se pueden obtener componentes funcionales y agradables para el usuario final.',
+          'Actualmente, hay cuatro componentes disponibles con los que ya se puede construir una sencilla web, pero hay planes de seguir ampliando y actualizando la herramienta.',
+          'Además de los componentes, también trabajé en la construcción del sitio web que alojaría la documentación y presentación de este proyecto. El sitio fue creado con Next.js, aprovechando su enrutamiento y la optimización de renderizado en servidor.'
         ],
         urls: {
           site: 'https://reactdee.brunodiaz.es',
@@ -88,11 +87,11 @@ export const es = {
         title: 'Ona Games',
         text: 'La pagina web de mi desarrolladora Indie de Videojuegos.',
         description: [
-          'En esta pagina web desarrollada con React se puede encontrar la información referente al estudio de videojuegos independiente que le da imagen de marca a mis juegos.',
-          'Este proyecto lo pospuse hasta tener los conocimientos necesarios sobre React y React Router. Ademas de ser la manera de trabajar por primera vez con enrutamiento en aplicación. Gracias a este descubrí la importancia de los renderizados en servidor (SSR), ya que no me era posible acceder a una ubicación directamente por URL o simplemente refrescar la pagina estando en producción. Cosa que solucioné, en este caso que renderiza en cliente, con "createHashRouter".',
-          'Dispone de selector de idioma dinámico, además de la detección automática del que esté configurado en el navegador.',
-          'En la pagina de cada juego se pueden abrir modales que muestran tanto las imagenes en grande o, en el primero de ellos, el trailer.',
-          'También hay integrado en la pagina de contacto un formulario para este fin.'
+          'En esta página web desarrollada con React se puede encontrar la información referente al estudio de videojuegos independiente que da imagen de marca a mis juegos.',
+          'Este proyecto lo pospuse hasta tener los conocimientos necesarios sobre React y React Router. Además, fue la primera vez que trabajé con enrutamiento en una aplicación. Gracias a este proceso, descubrí la importancia del renderizado en servidor (SSR), ya que inicialmente no podía acceder a una ubicación directamente por URL ni refrescar la página estando en producción. Esto lo solucioné, dado que el proyecto usa renderizado en cliente, implementando "createHashRouter".',
+          'Dispone de un selector de idioma dinámico, además de la detección automática del idioma configurado en el navegador.',
+          'En la página de cada juego, se pueden abrir modales que muestran las imágenes en tamaño grande o, en el primer modal, el tráiler del juego.',
+          'También hay un formulario de contacto integrado en la página correspondiente para facilitar la comunicación.'
         ],
         urls: {
           site: 'http://onagames.brunodiaz.es/',
@@ -112,12 +111,12 @@ export const es = {
         title: 'Editorial Dinav',
         text: 'Aplicación para hacer lista de lectura sobre Editorial inventada.',
         description: [
-          'Creé este proyecto a modo de ejercicio para practicar mis conocimientos con React y los estados globales, los cuales gestioné con Zustand.',
-          'En esta aplicación se puede encontrar una pequeña colección de libros, los cuales se pueden agregar a una lista de lectura personal.',
-          'La lista de lectura se puede gestionar mediante un desplegable en la parte inferior de la pantalla, el cual muestra también el numero de elementos que contiene.',
-          'Para la manipulación de los libros se abre un modal cuando se pulsa en uno de ellos, que muestra la información del mismo y el boton con el cual se puede añadir a la lista.',
-          'La colección inicial se puede filtrar por género y se puede marcar una opción que muestra u oculta los agregados a la lista de lectura.',
-          'Este proyecto es escalable en su totalidad, pudiendo agregar mas libros a la colección o mas filtros de busqueda sin afectar a su comportamiento. Y se ha cuidado el detalle de ofrecer animaciones suaves y alertas emergentes que mejoren la experiencia de usuario, haciendo que usarla sea agradable e intuitivo.'
+          'Creé este proyecto como ejercicio para practicar mis conocimientos con React y la gestión de estados globales, utilizando Zustand.',
+          'En esta aplicación, se encuentra una pequeña colección de libros, los cuales se pueden agregar a una lista de lectura personal.',
+          'La lista de lectura se gestiona mediante un desplegable en la parte inferior de la pantalla, que también muestra el número de elementos que contiene.',
+          'Para la manipulación de los libros, al hacer clic en uno de ellos, se abre un modal que muestra la información del libro y un botón para añadirlo a la lista.',
+          'La colección inicial se puede filtrar por género, y hay una opción para mostrar u ocultar los libros ya agregados a la lista de lectura.',
+          'Este proyecto es completamente escalable, permitiendo agregar más libros a la colección o más filtros de búsqueda sin afectar su comportamiento. Además, se han cuidado los detalles, como ofrecer animaciones suaves y alertas emergentes que mejoran la experiencia del usuario, haciendo que la aplicación sea agradable e intuitiva de usar.'
         ],
         urls: {
           site: 'http://editorialdinav.brunodiaz.es/',
@@ -137,11 +136,11 @@ export const es = {
         title: 'React shop',
         text: 'Mi primer trabajo de ensayo para aprender react.',
         description: [
-          'Esta es una aplicación muy simple para practicar el manejo de estados globales en forma de carrito de compra.',
-          'Se pueden añadir elementos al carrito y estos mostraran el aviso de que ya han sido añadidos, además, el boton de compra cambiará para mostrar la opcion de añadir una unidad mas.',
-          'Dispone de filtros para poder buscar los articulos por categoria o por el precio de partida',
-          'El carrito se mostrara en forma de menu desplegable, con un listado en columna. Desde aquí podremos añadir o quitar unidades de cada elemento a comprar, y si llega a cero se borrara de la lista. ',
-          'Es un ejemplo simple en el que no dediqué mas tiempo cuando fue funcional aquello que pretendía, pues quería continuar con mi entrenamiento en proyectos mas interesantes.'
+          'Esta es una aplicación simple para practicar el manejo de estados globales en forma de carrito de compras.',
+          'Se pueden añadir elementos al carrito, los cuales mostrarán un aviso indicando que ya han sido agregados. Además, el botón de compra cambiará para mostrar la opción de añadir una unidad más.',
+          'Dispone de filtros para buscar los artículos por categoría o por precio.',
+          'El carrito se muestra como un menú desplegable, con un listado en columna. Desde aquí se pueden añadir o quitar unidades de cada artículo, y si la cantidad llega a cero, se eliminará de la lista.',
+          'Es un ejemplo sencillo en el que no dediqué más tiempo una vez fue funcional lo que pretendía, ya que quería continuar con mi entrenamiento en proyectos más interesantes.'
         ],
         urls: {
           site: 'http://practice.reactshop.brunodiaz.es/',
@@ -161,10 +160,10 @@ export const es = {
         title: 'Weather Now',
         text: 'Una aplicacion de clima escrita en JavaScript puro.',
         description: [
-          'Este es uno de mis primeros proyectos que construí mientras aprendía JavaScript. Me sirivió para conocer plenamente el funcionamiento de este lenguaje, su manipulacion del DOM, trabajar con el objeto window, callbacks, control de variables, localStorage y muchas otras funcionalidades que aun no habia puesto en practica.',
-          'La aplicacion dispone de acceso a la geolocalización del navegador previa consulta al usuario. Pero tambien puede buscar localizaciones a petición. Y guardara todas en el almacenamiento local del navegador para tenerlas siempre disponible. También podemos eliminar varios o todos los elementos de esa lista mediante su correspondiente botón.',
-          'Podremos ver el clima actual de la localizacion elegida con algunos datos detallados, así como un resumen de las próximas previsiones en tramos de 3 horas.',
-          'Y para la lectura de la información podremos cambiar entre los formatos Farengheith o Celsius, y la web elegira entre ingles o español en función del idioma predeterminado del navegador.'
+          'Este es uno de mis primeros proyectos que construí mientras aprendía JavaScript. Me sirvió para comprender plenamente el funcionamiento de este lenguaje: la manipulación del DOM, trabajar con el objeto window, callbacks, control de variables, localStorage y muchas otras funcionalidades que aún no había puesto en práctica.',
+          'La aplicación tiene acceso a la geolocalización del navegador, previa consulta al usuario. También permite buscar localizaciones a petición y guarda todas en el almacenamiento local del navegador para tenerlas siempre disponibles. Además, es posible eliminar varios o todos los elementos de esa lista mediante su correspondiente botón.',
+          'Se puede ver el clima actual de la localización elegida, con algunos datos detallados, así como un resumen de las próximas previsiones en intervalos de 3 horas.',
+          'Para la lectura de la información, se puede alternar entre los formatos Fahrenheit o Celsius, y la web elegirá entre inglés o español según el idioma predeterminado del navegador.'
         ],
         urls: {
           site: 'https://weathernow.brunodiaz.es/',
@@ -182,11 +181,11 @@ export const es = {
         title: 'Block Survivor',
         text: 'Juego para Android tipo Arcade 80s hecho con Godot.',
         description: [
-          'Este es mi mas ambicioso proyecto, en lo que respecta al desarrollo de videojuegos indie, hasta la fecha.',
-          'Se trata de un juego tipo Arcade con estetica inspirada en los 80, en el cual el jugador ha de superar una serie de niveles llenos de obstaculos usando solo su habilidad moviendo la nave de un lado a otro para pasar a través de unos bloques que dificultan el viaje.',
-          'Me ha ofrecido un proceso de desarrollo laborioso, inspirador y emocionante a la par que desafiante. Y fué la razón por la que decidí entrar en la programación de forma profesional, debido a que me apasionó codificar el comportamiento de todo.',
-          'Tiene todo tipo de funcionalidades como: gestión de datos de jugador guardados en la nube, misiones que se van actualizando en tiempo real durante la partida, una tienda de Aspectos para la nave, modos de juego extra que aprovechan los niveles originales cambiando las reglas, etc... . Les invito a probar una partida, es muy adictivo...',
-          'Hay muchas partes de este proyecto que fueron duras de programar; pero en especial, una de las que mas orgulloso estoy, es del menu principal. Este menu lo desarrolle por completo de cero sin utilizar las herramientas preestablecidas del motor, pues queria algo muy concreto con unos comportamientos determinados. Por lo que cada funcionalidad, comportamiento de botones, paginas o selección de modos de juego y/o aspectos fueron programados directamente con lógica. Lo cual me aportó muchisima habilidad en este campo.'
+          'Este es mi proyecto más ambicioso en lo que respecta al desarrollo de videojuegos indie, hasta la fecha.',
+          'Se trata de un juego tipo arcade con una estética inspirada en los 80, en el cual el jugador debe superar una serie de niveles llenos de obstáculos, usando solo su habilidad para mover la nave de un lado a otro y pasar a través de bloques que dificultan el viaje.',
+          'El proceso de desarrollo ha sido laborioso, inspirador y emocionante, además de desafiante. Fue la razón por la que decidí entrar en la programación de forma profesional, ya que me apasionó codificar el comportamiento del juego.',
+          'El juego incluye todo tipo de funcionalidades, como: gestión de datos del jugador guardados en la nube, misiones que se actualizan en tiempo real durante la partida, una tienda de aspectos para la nave, modos de juego extra que reutilizan los niveles originales cambiando las reglas, entre otros. ¡Les invito a probarlo, es muy adictivo!',
+          'Una de las partes más difíciles de programar, y de las que más orgulloso estoy, es el menú principal. Este menú lo desarrollé completamente desde cero sin utilizar herramientas preestablecidas del motor, ya que buscaba algo muy concreto con comportamientos específicos. Cada funcionalidad, el comportamiento de los botones, las páginas, la selección de modos de juego y/o aspectos fueron programados directamente con lógica. Esto me brindó una gran habilidad en este campo.'
         ],
         urls: {
           site: 'https://play.google.com/store/apps/details?id=studio.onagames.blocksurvivor',
@@ -253,18 +252,18 @@ export const en = {
         description: [
           'This technical test required a demonstration of development skills using React with Vite, along with TypeScript, Sass, and testing.',
           'Thanks to this project, I discovered the potential I could unlock with the proposed tools, as well as learning how to take advantage of libraries I hadn’t used before.',
-          'I learned many ways to optimize development and scalability, while also making it easier for potential team collaboration, thanks to SOLID principles and Clean Code. Each module and component has its own responsibility, making it much easier to identify possible errors and/or improve the application.',
-          'Modern and pleasant design based on cards, fully responsive.',
+          'I learned many ways to optimize development and scalability, while also making it easier for potential team collaboration, thanks to SOLID principles and Clean Code. Each module and component has its own responsibility, making it much easier to identify possible errors and improve the application.',
+          'The design is modern and pleasant, based on cards and fully responsive.',
           'Dynamic title and favicon that change according to the selected city and its current weather.',
-          'I made use of contexts to access global states without the need to pass props or fall into the bad practice of "prop drilling."',
+          'I utilized contexts to access global states without the need to pass props or fall into the bad practice of "prop drilling."',
           'Most animations are handled using the framer-motion library, which has now become part of my personal "toolbox."',
           'The application is available in both English and Spanish, and you can switch between them via a small dropdown settings menu. In that menu, you can also change the theme (light, dark, or synced with the device).',
           'Modals are used for the contact form and to display detailed weather information for each forecast.',
-          'Accessibility has been taken into account, and the entire application can be navigated using only the keyboard.',
+          'Accessibility has been taken into account, allowing the entire application to be navigated using only the keyboard.',
           'Styles are written in Sass, which natively offers the use of mixins, functions, variables, conditional styling, and nesting. This allowed me to create cleaner, more organized, and easily debuggable and scalable styles.',
-          'Code syntax is controlled using Eslint with Airbnb configuration.',
+          'Code syntax is controlled using ESLint with the Airbnb configuration.',
           'In conclusion, I really enjoyed developing this application while learning many techniques and tools that will make my future developments more efficient and professional.',
-          'More information can be found in the project repository’s Readme.'
+          'More information can be found in the README of the project repository.'
         ],
         urls: {
           site: 'https://weatherapp2.brunodiaz.es',
@@ -287,12 +286,12 @@ export const en = {
         title: 'ReactDee',
         text: 'Simply, easy, and ready for use React Components for your apps.',
         description: [
-          'For this project I wanted to create a tool that would make creating web applications with React a little easier. So I decided to create a catalog of components, but with a twist.',
-          'ReactDee is all about simplicity when it comes to implementing and configuring these components. Apart from being able to copy the code from the repository, the possibility of installing it using "NPM" packages is offered. With a single terminal command, simple and easy to remember, you can get a component that will be ready to import into the corresponding project.',
-          'Regarding custom configuration, it is easily done by using props. And without having to use CSS for styles.',
-          'Achieving, with very few lines of code, without the need for additional installations or configurations in other files, functional and pleasant components for the end user.',
-          'Currently there are four components with which you can build a simple website, but there are plans to expand and update the tool.',
-          'In this case, in addition to the components, I also worked on the construction of the website that would host the documentation and presentation of this project. Created with NextJS, to take advantage of things like your routing or optimization with your server rendering.'
+          'For this project, I wanted to create a tool that would make building web applications with React a little easier. So, I decided to create a catalog of components, but with a twist.',
+          'ReactDee is all about simplicity when it comes to implementing and configuring these components. In addition to copying the code from the repository, it offers the possibility of installing it using "npm" packages. With a single terminal command, simple and easy to remember, you can obtain a component that is ready to import into your project.',
+          'Custom configuration is easily achieved using props, without the need for CSS for styling.',
+          'This allows for functional and pleasant components for the end user with very few lines of code, without the need for additional installations or configurations in other files.',
+          'Currently, there are four components available to build a simple website, but there are plans to expand and update the tool.',
+          'In this case, in addition to the components, I also worked on the construction of the website that hosts the documentation and presentation of this project. It was created with Next.js to take advantage of features like routing and server-side optimization.'
         ],
         urls: {
           site: 'https://reactdee.brunodiaz.es',
@@ -312,10 +311,10 @@ export const en = {
         title: 'Ona Games',
         text: 'The website of my Indie Game Development studio.',
         description: [
-          'On this React-developed website, you can find information related to the study of independent video games that gives a brand identity to my games.',
-          'I postponed this project until acquiring the necessary knowledge about React and React Router, as it marked my first experience with application routing. Through this project, I discovered the significance of server-side rendering (SSR), as direct URL access or simply refreshing the page while in production was not feasible. I addressed this issue, in the case of client-side rendering, by implementing "createHashRouter."',
+          'On this React-developed website, you can find information related to the study of independent video games, which gives a brand identity to my games.',
+          'I postponed this project until I acquired the necessary knowledge about React and React Router, as it marked my first experience with application routing. Through this project, I discovered the significance of server-side rendering (SSR), as direct URL access or simply refreshing the page while in production was not feasible. I addressed this issue, in the case of client-side rendering, by implementing "createHashRouter."',
           'It features a dynamic language selector, along with automatic detection based on the language configured in the browser.',
-          'On each game\'s page, modals can be opened to display either enlarged images or, in the case of the first one, the trailer.',
+          'On each game’s page, modals can be opened to display either enlarged images or, in the first modal, the trailer.',
           'Additionally, a contact form is integrated into the contact page for this purpose.'
         ],
         urls: {
@@ -337,9 +336,10 @@ export const en = {
         text: 'Application for creating a reading list for a fictional publishing house.',
         description: [
           'I created this project as an exercise to practice my skills with React and global states, which I managed using Zustand. In this application, you can find a small collection of books that can be added to a personal reading list.',
-          'The reading list can be managed through a dropdown at the bottom of the screen, which also displays the number of items it contains. For book manipulation, a modal opens when you click on a book, displaying its information and a button to add it to the list.',
-          'The initial collection can be filtered by genre, and an option allows you to show or hide items added to the reading list. This project is fully scalable, allowing the addition of more books to the collection or more search filters without affecting its behavior.',
-          'Great attention has been given to detail, offering smooth animations and pop-up alerts to enhance the user experience, making it enjoyable and intuitive to use.'],
+          'The reading list can be managed through a dropdown at the bottom of the screen, which also displays the number of items it contains. When you click on a book, a modal opens, displaying its information and a button to add it to the list.',
+          'The initial collection can be filtered by genre, and there is an option to show or hide items added to the reading list. This project is fully scalable, allowing for the addition of more books to the collection or more search filters without affecting its behavior.',
+          'Great attention has been given to detail, offering smooth animations and pop-up alerts to enhance the user experience, making it enjoyable and intuitive to use.'
+        ],
         urls: {
           site: 'http://editorialdinav.brunodiaz.es/',
           github: 'https://github.com/bdiaz-dev/lista-lectura'
@@ -359,10 +359,10 @@ export const en = {
         text: 'My first essay project to learn React.',
         description: [
           'This is a very simple application to practice managing global states in the form of a shopping cart.',
-          'Items can be added to the cart and they will show the notice that they have already been added, in addition, the purchase button will change to show the option to add one more unit.',
-          'It has filters to be able to search for items by category or by starting price',
-          'The cart will be displayed in the form of a drop-down menu, with a column listing. From here we can add or remove units of each item to buy, and if it reaches zero it will be deleted from the list. ',
-          'It\'s a simple example in which I didn\'t spend more time when what I intended was functional, because I wanted to continue my training on more interesting projects.'
+          'Items can be added to the cart, and a notice will indicate that they have already been added. Additionally, the purchase button will change to show the option to add one more unit.',
+          'It features filters to search for items by category or starting price.',
+          'The cart is displayed as a drop-down menu with a column listing. From here, you can add or remove units of each item to buy, and if the quantity reaches zero, it will be deleted from the list.',
+          'It’s a simple example in which I didn’t spend more time once what I intended was functional, as I wanted to continue my training on more interesting projects.'
         ],
         urls: {
           site: 'http://practice.reactshop.brunodiaz.es/',
@@ -382,10 +382,10 @@ export const en = {
         title: 'Weather Now',
         text: 'A weather application written in pure JavaScript.',
         description: [
-          'This is one of my first projects that I built while learning JavaScript. It helped me to fully understand how this language works, its manipulation of the DOM, working with the window object, callbacks, variable control, localStorage and many other functionalities that I had not yet put into practice.',
-          'The application has access to the browses\'s geolocation after consulting the user. But you can also search for locations on request. And it will save all of them in the browser\'s local storage to always have them available. We can also delete several or all of the elements from that list using the corresponding button.',
-          'We will be able to see the current weather of the chosen location with some detailed data, as well as a summary of the upcoming forecasts in 3-hour sections.',
-          'And to read the information we can change between Farengheith or Celsius formats, and the website will choose between English or Spanish depending on the default language of the browser.'
+          'This is one of my first projects that I built while learning JavaScript. It helped me fully understand how this language works, including its manipulation of the DOM, working with the window object, callbacks, variable control, localStorage, and many other functionalities that I had not yet put into practice.',
+          'The application has access to the browser’s geolocation after consulting the user. You can also search for locations on request, and it will save all of them in the browser’s local storage to keep them available. Additionally, we can delete several or all of the elements from that list using the corresponding button.',
+          'We will be able to see the current weather of the chosen location with some detailed data, as well as a summary of the upcoming forecasts in 3-hour intervals.',
+          'To read the information, we can switch between Fahrenheit and Celsius formats, and the website will choose between English and Spanish depending on the default language of the browser.'
         ],
         urls: {
           site: 'https://weathernow.brunodiaz.es/',
@@ -403,11 +403,11 @@ export const en = {
         title: 'Block Survivor',
         text: 'An arcade-style 80s game for Android created using Godot.',
         description: [
-          'This is my most ambitious project, in terms of indie game development, to date.',
-          'It is an Arcade-style game with aesthetics inspired by the 80s, in which the player must overcome a series of levels full of obstacles using only their skill to move the ship from side to side to pass through blocks that hinder the journey.',
-          'It has offered me a laborious, inspiring, and exciting development process, as well as challenging. And it was the reason I decided to enter programming professionally, because I was passionate about coding the behavior of everything.',
-          'It has all kinds of features such as: management of player data saved in the cloud, missions that are updated in real-time during the game, a shop for ship skins, extra game modes that leverage the original levels by changing the rules, etc... . I invite you to try a game, it\'s very addictive...',
-          'There are many parts of this project that were difficult to program; but especially, one of which I am most proud is the main menu. I developed this menu completely from scratch without using the preset tools of the engine, as I wanted something very specific with certain behaviors. So every functionality, button behavior, pages or selection of game modes and/or skins were programmed directly with logic. Which gave me a lot of skill in this field.'
+          'This is my most ambitious project to date in terms of indie game development.',
+          'It is an Arcade-style game with aesthetics inspired by the 80s, where the player must overcome a series of levels filled with obstacles, using only their skill to maneuver the ship from side to side to pass through blocks that hinder the journey.',
+          'This project has offered me a laborious, inspiring, and exciting development process, as well as challenging. It was the reason I decided to enter programming professionally because I was passionate about coding the behavior of everything.',
+          'It features a variety of functionalities, such as management of player data saved in the cloud, missions that are updated in real-time during the game, a shop for ship skins, and extra game modes that leverage the original levels by changing the rules. I invite you to try a game; it’s very addictive!',
+          'There are many aspects of this project that were difficult to program, but I am especially proud of the main menu. I developed this menu completely from scratch without using the preset tools of the engine because I wanted something very specific with certain behaviors. Every functionality, button behavior, page navigation, and selection of game modes and/or skins was programmed directly with logic, which significantly improved my skills in this field.'
         ],
         urls: {
           site: 'https://play.google.com/store/apps/details?id=studio.onagames.blocksurvivor',

@@ -1,6 +1,8 @@
 import { technologies } from '../constants/imgs'
-import * as content from '../constants/content'
-export default function Skills ({ lang }) {
+import { content } from '../constants/content'
+import { useLang } from '@context/LangProvider'
+export default function Skills () {
+  const { lang } = useLang()
   const techs = Object.values(technologies)
   return (
     <div
@@ -12,12 +14,10 @@ export default function Skills ({ lang }) {
       <div className='skillsImgContainer'>
         {techs.map((tech) => (
           <img
-            width='70px'
             key={tech.title}
             src={tech.img}
             alt={tech.title}
             title={tech.title}
-            style={{ zIndex: '200', position: 'relative' }}
           />
         ))}
       </div>

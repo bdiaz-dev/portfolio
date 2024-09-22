@@ -66,8 +66,26 @@
         @include flexConfig();
         a {
           @include flexConfig();
+          position: relative;
+          &.activeResponsive {
+            &::after {
+              content: '';
+              position: absolute;
+              width: 15px;   /* Tamaño del punto */
+              height: 5px;  /* Tamaño del punto */
+              background-color: black; /* Color del punto */
+              border-radius: 50%;  /* Hacer el elemento circular */
+              
+              left: 50%;  /* Centrar horizontalmente */
+              transform: translateX(-50%);  /* Ajustar para centrar */
+              top: 100%; /* Colocar debajo del elemento */
+              margin-top: 5px; /* Separación entre el elemento y el punto */
+            }
+          }
           img {
-            height: 35px;
+            height: 30px;
+            
+            
           }
         }
       }

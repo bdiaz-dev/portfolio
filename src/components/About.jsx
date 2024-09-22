@@ -1,6 +1,8 @@
-import * as content from '../constants/content'
+import { content } from '@constants/content'
+import { useLang } from '@context/LangProvider'
 
-export default function About ({ lang }) {
+export default function About () {
+  const { lang } = useLang()
   return (
     <section id='about'>
       <article>

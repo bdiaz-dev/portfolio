@@ -1,6 +1,8 @@
-import * as content from '../constants/content'
+import { content, contactLinks } from '@constants/content'
+import { useLang } from '@context/LangProvider'
 
-export default function Footer ({ lang }) {
+export default function Footer () {
+  const { lang } = useLang()
   return (
     <div className='footer'>
       <p>
@@ -17,7 +19,7 @@ export default function Footer ({ lang }) {
       <p>
         {content[lang].footer[3]}
         <a
-          href={content.contactLinks.mail}
+          href={contactLinks.mail}
         >
           {content[lang].footer[4]}
         </a>

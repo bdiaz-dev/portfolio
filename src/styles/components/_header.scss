@@ -45,11 +45,12 @@
       height: 30px;
       margin-right: 15px;
       cursor: pointer;
-      filter: invert(.5);
+      filter: var(--svg-invert);
       transition: all .3s;
   
       &:hover {
-        filter: invert(1); // drop-shadow(0 0 10px #301E67) drop-shadow(0 0 10px white);
+        // filter: var(--svg-invert);
+        transform: scale(1.2);
       }
     }
   }

@@ -2,7 +2,7 @@ import * as content from '../constants/content'
 import { foto } from '../constants/imgs'
 import { useEffect } from 'react'
 import activeMenu from '../logic/activeMenu'
-import Menu from './Menu'
+import Menu from './menu/Menu'
 import Contact from './Contact'
 
 export default function Header ({ lang }) {

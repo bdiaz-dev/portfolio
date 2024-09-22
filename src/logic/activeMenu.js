@@ -22,8 +22,12 @@ export default function activeMenu () {
     document.querySelectorAll('#menu a').forEach(function (el) {
       el.classList.remove('active')
     })
+    document.querySelectorAll('#menuResponsive a').forEach(function (el) {
+      el.classList.remove('activeResponsive')
+    })
 
     // Agrega la clase 'activo' al elemento del menú correspondiente
     document.querySelectorAll('#menu a')[index].classList.add('active')
+    document.querySelectorAll('#menuResponsive a')[index].classList.add('activeResponsive')
   }
 }

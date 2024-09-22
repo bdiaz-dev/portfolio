@@ -1,5 +1,5 @@
-import { contact } from '../constants/imgs'
-import { contactLinks } from '../constants/content'
+import { contact } from '@constants/imgs'
+import { contactLinks } from '@constants/content'
 
 export default function Contact ({ id = 'contact', isOnTop = false, lang }) {
   return (

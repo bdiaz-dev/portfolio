@@ -61,7 +61,7 @@
       }
     
       &:hover>.projectModal--img {
-        filter: brightness(.3); // drop-shadow(0 0 10px white);
+        filter: brightness(.3);
       }
     
       &:hover>.imgIconGo {
@@ -97,13 +97,12 @@
   cursor: pointer;
 
   img {
-    filter: invert(1);
     width: 40px;
     transition: all .2s;
   }
 
   img:hover {
-    filter: invert(.7); 
+    transform: scale(1.1);
   }
 }
 

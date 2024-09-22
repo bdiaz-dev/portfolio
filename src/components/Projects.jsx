@@ -1,12 +1,11 @@
-// import { useState } from 'react'
 import * as content from '../constants/content'
-// import handleOpenModal from '../logic/handleOpenModal'
-// import ModalProject from './ModalProject'
 import ProjectCard from '@components/projectCard/ProjectCard'
-import { useJob } from '../context/JobProvider'
+import { useJob } from '@context/JobProvider'
+import { useLang } from '@context/LangProvider'
 
-export default function Projects ({ lang }) {
+export default function Projects () {
   const { setJob } = useJob()
+  const { lang } = useLang()
   const handleSetJob = (i) => {
     setJob(i)
     document.documentElement.setAttribute('data-scrollcancel', 'true')
@@ -27,7 +26,6 @@ export default function Projects ({ lang }) {
           />
         ))
       }
-      {/* <ModalProject /> */}
     </section>
   )
 }

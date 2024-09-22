@@ -5,6 +5,7 @@ import { useLang } from '@context/LangProvider'
 
 export default function ConfigModal ({ isConfigShow = true }) {
   const { lang } = useLang()
+
   return (
     <AnimatePresence>
       {isConfigShow && (

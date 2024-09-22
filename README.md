@@ -14,9 +14,13 @@ Idioma / Language:
 
 🏗 Ha sido montada usando **React**, toda la estructrura se basa en componentes reutilizables que posteriormente son importados y montados cual castillo de LEGO para moldear lo que veis.
 
-🎨 Con respecto a los estilos, suelo decantarme por **CSS** puro pero en este caso instale **Sass** para hacer uso de los anidados, ya que me pareció interesante estructurar así el codigo. Aunque ya estoy empezando a utilizar **Tailwind CSS** en otros proyectos.
+🎨 Con respecto a los estilos, me gusta usar **Sass**. Sus funcionalidades como anidamiento, mixins y funciones son muy útiles.
 
 🌍 También esta preparado para poder **elegir tu idioma** (español e ingles), y tiene un pequeño fragmento de codigo al inicio de la aplicación para detectar el idioma usado en el navegador y así ofrecer el adecuado de entrada.
+
+☀️ Cambio de estilo a claro y oscuro mediante el menú de configuración.
+
+📱Web completamente responsiva y adaptable. Con variaciones en los menús de interacción en función de la pantalla del dispositivo.
 
 🚧 Para la construcción de esta aplicación se ha hecho uso de **Vite**, el cual facilita en gran medida el arranque y despliegue final de la aplicación.
 
@@ -37,9 +41,13 @@ https://www.brunodiaz.es
 
 🏗 It has been built using **React**, the entire structure is based on reusable components that are later imported and assembled like a LEGO castle to mold what you see.
 
-🎨 Regarding styles, I usually opt for pure **CSS** but in this case I installed Sass to make use of the nested ones, since I found it interesting to structure the code that way. Although I'm already starting to use **Tailwind CSS** in other projects.
+🎨 Regarding styles, I like to use Sass. Its features like nesting, mixins, and functions are very useful.
 
-🌍 It is also prepared to be able to **choose your language** (Spanish and English), and has a small fragment of code at the beginning of the application to detect the language used in the browser and thus offer the appropriate input.
+🌍 It is also prepared to choose your language (Spanish and English), with a small code snippet at the start of the application to detect the browser's language and provide the appropriate entry.
+
+☀️ Style can be switched between light and dark modes through the settings menu.
+
+📱 Fully responsive and adaptable website, with variations in the interaction menus based on the device screen size.
 
 🚧 To build this application, **Vite** has been used, which greatly facilitates the start-up and final deployment of the application.
 

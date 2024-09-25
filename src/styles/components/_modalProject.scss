@@ -92,17 +92,28 @@
 
 .closeModal {
   position: absolute;
-  top: 2px;
+  top: 5px;
   right: 5px;
   cursor: pointer;
+  background-color: white;
+  max-height: 35px;
+  max-width: 41px;
+  overflow: hidden;
+  @include flexConfig(row, center, center);
+  border-radius: 10px;
+  transition: all .2s;
+  outline: var(--projectModal-backgroundColor) 1px solid;
 
-  img {
-    width: 40px;
-    transition: all .2s;
+  &:hover {
+    transform: scale(1.1);
   }
 
-  img:hover {
-    transform: scale(1.1);
+  &:active {
+    transform: scale(.9);
+  }
+
+  img {
+    height: 45px;
   }
 }
 

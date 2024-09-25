@@ -1,4 +1,4 @@
-import * as content from '../constants/content'
+import { content } from '@constants/content'
 import ProjectCard from '@components/projectCard/ProjectCard'
 import { useJob } from '@context/JobProvider'
 import { useLang } from '@context/LangProvider'
@@ -15,10 +15,10 @@ export default function Projects () {
     <section id='projects'>
       <div id='projectsResponsiveTag' />
       <h1 className='textColored'>
-        {content[lang].projects.title}
+        {content.projects.title[lang]}
       </h1>
       {
-        content[lang].projects.jobs.map((item, index) => (
+        content.projects.jobs.map((item, index) => (
           <ProjectCard
             key={item.title}
             item={item}

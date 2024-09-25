@@ -6,8 +6,8 @@ export default function About () {
   return (
     <section id='about'>
       <article>
-        <h1 className='textColored'>{content[lang].about.title}</h1>
-        <p>{content[lang].about.text}</p>
+        <h1 className='textColored'>{content.about.title[lang]}</h1>
+        <p>{content.about.text[lang]}</p>
       </article>
     </section>
   )

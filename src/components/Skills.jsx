@@ -1,5 +1,5 @@
-import { technologies } from '../constants/imgs'
-import { content } from '../constants/content'
+import { technologies } from '@constants/imgs'
+import { content } from '@constants/content'
 import { useLang } from '@context/LangProvider'
 export default function Skills () {
   const { lang } = useLang()
@@ -10,7 +10,7 @@ export default function Skills () {
       style={{ zIndex: '100' }}
     >
       <div id='skillsResponsiveTag' />
-      <h1 className='textColored'>{content[lang].skills.title}</h1>
+      <h1 className='textColored'>{content.skills.title[lang]}</h1>
       <div className='skillsImgContainer'>
         {techs.map((tech) => (
           <img

@@ -1,4 +1,3 @@
-// import '../styles/projectCards.scss'
 import CardImg from './CardImg'
 import CardText from './CardText'
 

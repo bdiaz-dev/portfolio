@@ -6,22 +6,22 @@ export default function Footer () {
   return (
     <div className='footer'>
       <p>
-        {content[lang].footer[0]}
+        {content.footer[lang][0]}
       </p>
       <p>
-        {content[lang].footer[1]}
+        {content.footer[lang][1]}
         <a
           href='https://github.com/bdiaz-dev/portfolio'
         >
-          {content[lang].footer[2]}
+          {content.footer[lang][2]}
         </a>
       </p>
       <p>
-        {content[lang].footer[3]}
+        {content.footer[lang][3]}
         <a
           href={contactLinks.mail}
         >
-          {content[lang].footer[4]}
+          {content.footer[lang][4]}
         </a>
       </p>
     </div>

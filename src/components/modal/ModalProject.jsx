@@ -9,7 +9,7 @@ import { modalIcos } from '@constants/imgs'
 export default function ModalProject () {
   const { job } = useJob()
   const { lang } = useLang()
-  const project = content[lang].projects.jobs[job]
+  const project = content.projects.jobs[job]
   return (
     <AnimatePresence>
       {
@@ -29,7 +29,7 @@ export default function ModalProject () {
 
               {/* titulo y enlaces */}
               <h2>
-                {project.title}
+                {project.title[lang]}
               </h2>
 
               <ul
@@ -38,7 +38,7 @@ export default function ModalProject () {
                 <li>
                   <a href={project.urls.github} target='blank' className='linkButton'>
                     <button>
-                      <span className='textMode'>{content[lang].menu.repo}</span>
+                      <span className='textMode'>{content.menu.repo[lang]}</span>
                       <img className='iconMode' src={modalIcos.gitHub} alt='gitHub repo' />
                     </button>
                   </a>
@@ -46,7 +46,7 @@ export default function ModalProject () {
                 <li>
                   <a href={project.urls.site} target='blank' className='linkButton'>
                     <button>
-                      <span className='textMode'>{content[lang].menu.go}</span>
+                      <span className='textMode'>{content.menu.go[lang]}</span>
                       <img className='iconMode' src={modalIcos.go} alt='go site' />
                     </button>
                   </a>
@@ -73,7 +73,7 @@ export default function ModalProject () {
                     alt='go to site'
                   />
                 </div>
-                {project.description.map((t) => (
+                {project.description[lang].map((t) => (
                   <p key={t}>{t}</p>
                 ))}
 

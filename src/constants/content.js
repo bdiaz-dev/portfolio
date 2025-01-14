@@ -134,6 +134,40 @@ export const content = {
         ]
       },
 
+      // ------ TABLAS DIVERTIDAS ------
+      {
+        title: 'Tablas divertidas',
+        text: {
+          es: 'Para que los niños practiquen las tablas de forma divertida.',
+          en: 'The website of my Indie Game Development studio.'
+        },
+        description: {
+          es: [
+            'Con esta sencilla aplicación los niños pueden practicar las tablas de multiplicar de una forma sencilla y divertida.',
+            'Pueden elegir una o varias de las tablas del 1 al 10, y las preguntas iran saliendo de forma aleatoria.',
+            'Cada vez que respondan correctamente el emoji que le acompañará se alegrará y pasará a ma siguiente. Aunque si no saben la respuesta pueden pedir otra pregunta, y esta resolverla después.'
+          ],
+          en: [
+            'With this simple application, children can practice the multiplication tables in an easy and fun way.',
+            'They can choose one or more tables from 1 to 10, and the questions will appear randomly.',
+            'Every time they answer correctly, the accompanying emoji will be happy and move on to the next one. However, if they do not know the answer, they can request another question and solve it later.'
+          ]
+        },
+        urls: {
+          site: 'http://tablasdivertidas.brunodiaz.es/',
+          github: 'https://github.com/bdiaz-dev/tablas_divertidas'
+        },
+        img: captures.tablasDivertidas,
+        tech: [
+          technologies.html,
+          technologies.css,
+          technologies.javaScript,
+          technologies.vite,
+          technologies.react,
+          technologies.sass
+        ]
+      },
+
       // ------ ONA GAMES ------
       {
         title: 'Ona Games',

@@ -8,6 +8,7 @@ import weatherNow from '../assets/img/projects/weathernow_capture.jpg'
 import amigosPalabras from '../assets/img/projects/amigospalabras_capture.jpg'
 import reactdee from '../assets/img/projects/reactdee_capture.jpg'
 import weatherApp2 from '../assets/img/projects/weatherapp2_capture.jpeg'
+import tablasDivertidas from '../assets/img/projects/tablasdivertidas_capture.jpeg'
 
 import javaScript from '../assets/svg/javascript.svg'
 import godot from '../assets/svg/godot.svg'
@@ -50,7 +51,8 @@ const captures = {
   weatherNow,
   amigosPalabras,
   reactdee,
-  weatherApp2
+  weatherApp2,
+  tablasDivertidas
 }
 
 const contact = {
